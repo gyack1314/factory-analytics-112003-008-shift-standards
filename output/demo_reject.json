@@ -1,0 +1,11 @@
+{
+  "id": "REJ-AB-1",
+  "previous": "A",
+  "next": "B",
+  "factory": "一厂",
+  "spec": "V2",
+  "condition": "重检样本不足暂时拒用",
+  "raised_min": 21700,
+  "raised_by": "工艺张",
+  "active": true
+}

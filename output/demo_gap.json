@@ -1,0 +1,12 @@
+{
+  "id": "GAP-BC-1",
+  "previous": "B",
+  "next": "C",
+  "factory": "一厂",
+  "spec": "V2",
+  "reason": "洁净与方向变化阻断迁移",
+  "requested_min": 21700,
+  "requested_by": "工艺张",
+  "status": "开放",
+  "filled_switch_ids": []
+}

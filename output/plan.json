@@ -1,0 +1,362 @@
+{
+  "scenario": "baseline",
+  "description": "按原始产线与原始开始顺序的基线方案",
+  "orders": 4,
+  "total_qty": 185,
+  "total_line_minutes": 240,
+  "total_overlap_prep_min": 60,
+  "total_manual_minutes": 180,
+  "total_equipment_wait_min": 0,
+  "idle_gap_minutes": 0,
+  "line_minutes_per_100_units": 129.73,
+  "promise_breaches": [
+    "PLAN1",
+    "PLAN3",
+    "PLAN4"
+  ],
+  "resource_conflicts": [
+    {
+      "order_id": "PLAN1",
+      "resource": "M0",
+      "kind": "tool",
+      "requested_interval": [
+        21630,
+        21705
+      ],
+      "conflict_interval": [
+        21645,
+        21668
+      ],
+      "with": "LIVE",
+      "note": "历史/在执行借用 @ L0"
+    },
+    {
+      "order_id": "PLAN2",
+      "resource": "M0",
+      "kind": "tool",
+      "requested_interval": [
+        21634,
+        21709
+      ],
+      "conflict_interval": [
+        21645,
+        21668
+      ],
+      "with": "LIVE",
+      "note": "历史/在执行借用 @ L0"
+    },
+    {
+      "order_id": "PLAN2",
+      "resource": "M0",
+      "kind": "tool",
+      "requested_interval": [
+        21634,
+        21709
+      ],
+      "conflict_interval": [
+        21645,
+        21679
+      ],
+      "with": "PLAN1",
+      "note": "计划预占用 @ L1"
+    },
+    {
+      "order_id": "PLAN2",
+      "resource": "M0",
+      "kind": "tool",
+      "requested_interval": [
+        21634,
+        21709
+      ],
+      "conflict_interval": [
+        21645,
+        21705
+      ],
+      "with": "PLAN1",
+      "note": "PLAN1 借用 M0"
+    },
+    {
+      "order_id": "PLAN4",
+      "resource": "M0",
+      "kind": "tool",
+      "requested_interval": [
+        21759,
+        21834
+      ],
+      "conflict_interval": [
+        21759,
+        21814
+      ],
+      "with": "PLAN3",
+      "note": "PLAN3 借用 M0"
+    }
+  ],
+  "scheduled": [
+    {
+      "order_id": "PLAN1",
+      "product": "B",
+      "qty": 35,
+      "locked": true,
+      "line": "L1",
+      "factory": "一厂",
+      "changeover_start_min": 21630,
+      "stop_min": 21645,
+      "run_start_min": 21705,
+      "run_end_min": 21744,
+      "promise_min": 21710,
+      "promise_kept": false,
+      "feasible": false,
+      "issues": [
+        "无 B→B V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21645–21668 与 LIVE 冲突（历史/在执行借用 @ L0）",
+        "完工 21744 晚于允诺 21710"
+      ],
+      "changeover": {
+        "line": "L1",
+        "factory": "一厂",
+        "previous_product": "B",
+        "next_product": "B",
+        "spec": "V1",
+        "overlap_prep_min": 15,
+        "post_stop_prep_min": 5,
+        "cleaning_min": 18,
+        "first_article_min": 12,
+        "reinspect_allowance_min": 10,
+        "equipment_wait_min": 0,
+        "line_minutes": 60,
+        "manual_minutes": 45,
+        "estimate_source": "保守占位",
+        "blocked_reasons": []
+      }
+    },
+    {
+      "order_id": "PLAN2",
+      "product": "A",
+      "qty": 64,
+      "locked": false,
+      "line": "L0",
+      "factory": "一厂",
+      "changeover_start_min": 21634,
+      "stop_min": 21649,
+      "run_start_min": 21709,
+      "run_end_min": 21764,
+      "promise_min": 21790,
+      "promise_kept": true,
+      "feasible": false,
+      "issues": [
+        "无 A→A V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21645–21668 与 LIVE 冲突（历史/在执行借用 @ L0）",
+        "共用工具 M0 在 21645–21679 与 PLAN1 冲突（计划预占用 @ L1）",
+        "共用工具 M0 在 21645–21705 与 PLAN1 冲突（PLAN1 借用 M0）"
+      ],
+      "changeover": {
+        "line": "L0",
+        "factory": "一厂",
+        "previous_product": "A",
+        "next_product": "A",
+        "spec": "V1",
+        "overlap_prep_min": 15,
+        "post_stop_prep_min": 5,
+        "cleaning_min": 18,
+        "first_article_min": 12,
+        "reinspect_allowance_min": 10,
+        "equipment_wait_min": 0,
+        "line_minutes": 60,
+        "manual_minutes": 45,
+        "estimate_source": "保守占位",
+        "blocked_reasons": []
+      }
+    },
+    {
+      "order_id": "PLAN3",
+      "product": "C",
+      "qty": 56,
+      "locked": true,
+      "line": "L1",
+      "factory": "一厂",
+      "changeover_start_min": 21739,
+      "stop_min": 21754,
+      "run_start_min": 21814,
+      "run_end_min": 21876,
+      "promise_min": 21760,
+      "promise_kept": false,
+      "feasible": true,
+      "issues": [
+        "无 B→C V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "完工 21876 晚于允诺 21760"
+      ],
+      "changeover": {
+        "line": "L1",
+        "factory": "一厂",
+        "previous_product": "B",
+        "next_product": "C",
+        "spec": "V1",
+        "overlap_prep_min": 15,
+        "post_stop_prep_min": 5,
+        "cleaning_min": 18,
+        "first_article_min": 12,
+        "reinspect_allowance_min": 10,
+        "equipment_wait_min": 0,
+        "line_minutes": 60,
+        "manual_minutes": 45,
+        "estimate_source": "保守占位",
+        "blocked_reasons": []
+      }
+    },
+    {
+      "order_id": "PLAN4",
+      "product": "X",
+      "qty": 30,
+      "locked": false,
+      "line": "L0",
+      "factory": "一厂",
+      "changeover_start_min": 21759,
+      "stop_min": 21774,
+      "run_start_min": 21834,
+      "run_end_min": 21860,
+      "promise_min": 21810,
+      "promise_kept": false,
+      "feasible": false,
+      "issues": [
+        "无 A→X V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21759–21814 与 PLAN3 冲突（PLAN3 借用 M0）",
+        "完工 21860 晚于允诺 21810"
+      ],
+      "changeover": {
+        "line": "L0",
+        "factory": "一厂",
+        "previous_product": "A",
+        "next_product": "X",
+        "spec": "V1",
+        "overlap_prep_min": 15,
+        "post_stop_prep_min": 5,
+        "cleaning_min": 18,
+        "first_article_min": 12,
+        "reinspect_allowance_min": 10,
+        "equipment_wait_min": 0,
+        "line_minutes": 60,
+        "manual_minutes": 45,
+        "estimate_source": "保守占位",
+        "blocked_reasons": []
+      }
+    }
+  ],
+  "shift_view": [
+    {
+      "order_id": "PLAN1",
+      "line": "L1",
+      "prep_by_shift": [
+        {
+          "shift": -1,
+          "minutes": 6,
+          "interval": [
+            21630,
+            21636
+          ]
+        },
+        {
+          "shift": 0,
+          "minutes": 9,
+          "interval": [
+            21636,
+            21645
+          ]
+        }
+      ],
+      "line_by_shift": [
+        {
+          "shift": 0,
+          "minutes": 60,
+          "interval": [
+            21645,
+            21705
+          ]
+        }
+      ],
+      "prep_moved_to_earlier_shift": 6
+    },
+    {
+      "order_id": "PLAN2",
+      "line": "L0",
+      "prep_by_shift": [
+        {
+          "shift": -1,
+          "minutes": 2,
+          "interval": [
+            21634,
+            21636
+          ]
+        },
+        {
+          "shift": 0,
+          "minutes": 13,
+          "interval": [
+            21636,
+            21649
+          ]
+        }
+      ],
+      "line_by_shift": [
+        {
+          "shift": 0,
+          "minutes": 60,
+          "interval": [
+            21649,
+            21709
+          ]
+        }
+      ],
+      "prep_moved_to_earlier_shift": 2
+    },
+    {
+      "order_id": "PLAN3",
+      "line": "L1",
+      "prep_by_shift": [
+        {
+          "shift": 1,
+          "minutes": 15,
+          "interval": [
+            21739,
+            21754
+          ]
+        }
+      ],
+      "line_by_shift": [
+        {
+          "shift": 1,
+          "minutes": 60,
+          "interval": [
+            21754,
+            21814
+          ]
+        }
+      ],
+      "prep_moved_to_earlier_shift": 0
+    },
+    {
+      "order_id": "PLAN4",
+      "line": "L0",
+      "prep_by_shift": [
+        {
+          "shift": 1,
+          "minutes": 15,
+          "interval": [
+            21759,
+            21774
+          ]
+        }
+      ],
+      "line_by_shift": [
+        {
+          "shift": 1,
+          "minutes": 60,
+          "interval": [
+            21774,
+            21834
+          ]
+        }
+      ],
+      "prep_moved_to_earlier_shift": 0
+    }
+  ]
+}

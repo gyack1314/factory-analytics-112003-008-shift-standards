@@ -1,0 +1,121 @@
+{
+  "versions": [
+    {
+      "id": "STD1",
+      "previous": "A",
+      "next": "B",
+      "spec": "V1",
+      "effective_min": 20000,
+      "action": "批准",
+      "factory": "一厂",
+      "approver": null,
+      "decided_min": null,
+      "note": "由输入台账导入"
+    },
+    {
+      "id": "STD2",
+      "previous": "A",
+      "next": "B",
+      "spec": "V2",
+      "effective_min": 21635,
+      "action": "批准",
+      "factory": "一厂",
+      "approver": null,
+      "decided_min": null,
+      "note": "由输入台账导入"
+    },
+    {
+      "id": "STD3",
+      "previous": "A",
+      "next": "C",
+      "spec": "V2",
+      "effective_min": 21635,
+      "action": "退回补采",
+      "factory": "一厂",
+      "approver": null,
+      "decided_min": null,
+      "note": "由输入台账导入"
+    },
+    {
+      "id": "STD-AC-V2-4",
+      "previous": "A",
+      "next": "C",
+      "spec": "V2",
+      "effective_min": 22000,
+      "action": "批准",
+      "factory": "一厂",
+      "approver": "工艺张",
+      "decided_min": 22000,
+      "note": "复核批准"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-BC-1",
+      "previous": "B",
+      "next": "C",
+      "factory": "一厂",
+      "spec": "V2",
+      "reason": "洁净与方向变化阻断迁移",
+      "requested_min": 21700,
+      "requested_by": "工艺张",
+      "status": "开放",
+      "filled_switch_ids": []
+    }
+  ],
+  "rejections": [
+    {
+      "id": "REJ-AB-1",
+      "previous": "A",
+      "next": "B",
+      "factory": "一厂",
+      "spec": "V2",
+      "condition": "重检样本不足暂时拒用",
+      "raised_min": 21700,
+      "raised_by": "工艺张",
+      "active": true
+    }
+  ],
+  "change_log": [
+    {
+      "event": "approve",
+      "at": "2026-11-20T12:43:34+00:00",
+      "id": "STD-AC-V2-4",
+      "pair": [
+        "A",
+        "C"
+      ],
+      "factory": "一厂",
+      "spec": "V2",
+      "approver": "工艺张",
+      "note": "复核批准"
+    },
+    {
+      "event": "request_gap",
+      "at": "2026-11-20T12:43:34+00:00",
+      "id": "GAP-BC-1",
+      "previous": "B",
+      "next": "C",
+      "factory": "一厂",
+      "spec": "V2",
+      "reason": "洁净与方向变化阻断迁移",
+      "requested_min": 21700,
+      "requested_by": "工艺张",
+      "status": "开放",
+      "filled_switch_ids": []
+    },
+    {
+      "event": "raise_rejection",
+      "at": "2026-11-20T12:43:34+00:00",
+      "id": "REJ-AB-1",
+      "previous": "A",
+      "next": "B",
+      "factory": "一厂",
+      "spec": "V2",
+      "condition": "重检样本不足暂时拒用",
+      "raised_min": 21700,
+      "raised_by": "工艺张",
+      "active": true
+    }
+  ]
+}

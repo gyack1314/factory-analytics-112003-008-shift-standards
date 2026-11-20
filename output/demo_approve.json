@@ -1,0 +1,40 @@
+{
+  "approved": {
+    "id": "STD-AC-V2-4",
+    "previous": "A",
+    "next": "C",
+    "spec": "V2",
+    "effective_min": 22000,
+    "action": "批准",
+    "factory": "一厂",
+    "approver": "工艺张",
+    "decided_min": 22000,
+    "note": "复核批准"
+  },
+  "evidence": {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": true,
+    "sufficiency_note": "直接完整样本 5 条，达到充分门槛 5",
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "relative_uncertainty": {
+      "line_occupied": 0.046,
+      "overlap_prep": 0.0,
+      "post_stop_prep": 0.0,
+      "cleaning": 0.094,
+      "first_article": 0.0,
+      "reinspect": null,
+      "equipment_wait": 1.5,
+      "manual": 0.045,
+      "double_counted": 0.0
+    },
+    "approved": true,
+    "rejections": []
+  }
+}

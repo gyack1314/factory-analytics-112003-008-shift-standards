@@ -1,0 +1,25 @@
+{
+  "target_pair": [
+    "A",
+    "C"
+  ],
+  "source_pair": [
+    "A",
+    "B"
+  ],
+  "gate_attributes": [
+    "材料",
+    "洁净等级",
+    "模具方向"
+  ],
+  "verdict": {
+    "usable": false,
+    "relation": "blocked",
+    "reasons": [
+      "后批产品族 B→C 的材料变化：甲 → 乙",
+      "后批产品族 B→C 的洁净等级变化：普通 → 洁净",
+      "后批产品族 B→C 的模具方向变化：右 → 左"
+    ],
+    "uncertainty_factor": 1.0
+  }
+}

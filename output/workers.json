@@ -1,0 +1,27 @@
+{
+  "E0": {
+    "union_min": 1855,
+    "double_counted_min": 180,
+    "switch_count": 37
+  },
+  "E1": {
+    "union_min": 1806,
+    "double_counted_min": 180,
+    "switch_count": 36
+  },
+  "E2": {
+    "union_min": 1814,
+    "double_counted_min": 180,
+    "switch_count": 36
+  },
+  "E3": {
+    "union_min": 1803,
+    "double_counted_min": 180,
+    "switch_count": 36
+  },
+  "E4": {
+    "union_min": 1813,
+    "double_counted_min": 180,
+    "switch_count": 36
+  }
+}

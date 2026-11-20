@@ -10,3 +10,7 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行态：标准台账与计划版本持久化、演示输出
+state/
+output/

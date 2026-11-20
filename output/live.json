@@ -1,0 +1,54 @@
+{
+  "switch_id": "LIVE",
+  "line": "L0",
+  "factory": "一厂",
+  "pair": [
+    "A",
+    "B"
+  ],
+  "spec_at_start": "V1",
+  "current_effective_spec": "V2",
+  "version_switch_pending": true,
+  "stop_min": 21605,
+  "review_min": 21645,
+  "completed_stages": [
+    {
+      "stage": "预准备",
+      "status": "完成",
+      "actual_min": 33,
+      "end_min": 21600
+    },
+    {
+      "stage": "清洗",
+      "status": "签字",
+      "actual_min": 14,
+      "end_min": 21619
+    },
+    {
+      "stage": "首件",
+      "status": "失败",
+      "actual_min": 10,
+      "end_min": 21630
+    },
+    {
+      "stage": "重检",
+      "status": "进行中",
+      "observed_min": 3,
+      "over_time_limit": false,
+      "end_min": null
+    }
+  ],
+  "open_stage": "重检",
+  "observed_line_minutes": 40,
+  "remaining_minutes": 4,
+  "remaining_breakdown": {
+    "重检(进行中)": 4
+  },
+  "first_article_failed": true,
+  "line_released": false,
+  "hold_until_min": 21649,
+  "reasons": [
+    "换型按 V1 开工且已部分完成；生效中的 V2 不回溯适用，剩余推算继续使用开工版本",
+    "首件失败且重检未放行：产线保持 hold，不得释放给下张订单"
+  ]
+}

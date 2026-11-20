@@ -1,0 +1,29 @@
+{
+  "pair": [
+    "A",
+    "B"
+  ],
+  "factory": "一厂",
+  "revision_chain": [
+    {
+      "version_id": "STD1",
+      "spec": "V1",
+      "effective_min": 20000,
+      "action": "批准",
+      "approver": null,
+      "note": "由输入台账导入",
+      "triggered_gaps": [],
+      "active_rejection_conditions": []
+    },
+    {
+      "version_id": "STD2",
+      "spec": "V2",
+      "effective_min": 21635,
+      "action": "批准",
+      "approver": null,
+      "note": "由输入台账导入",
+      "triggered_gaps": [],
+      "active_rejection_conditions": []
+    }
+  ]
+}

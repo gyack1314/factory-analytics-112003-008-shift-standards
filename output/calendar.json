@@ -1,0 +1,55 @@
+{
+  "review_min": 21645,
+  "contention": [
+    {
+      "resource": "M0",
+      "kind": "tool",
+      "occupied_until": 21679,
+      "holders": [
+        {
+          "owner": "LIVE",
+          "interval": [
+            21645,
+            21668
+          ],
+          "note": "历史/在执行借用 @ L0",
+          "hold": true
+        },
+        {
+          "owner": "PLAN1",
+          "interval": [
+            21645,
+            21679
+          ],
+          "note": "计划预占用 @ L1",
+          "hold": false
+        }
+      ],
+      "candidate_blocked_lines": []
+    }
+  ],
+  "all_occupancies": [
+    {
+      "resource": "M0",
+      "kind": "tool",
+      "interval": [
+        21645,
+        21668
+      ],
+      "owner": "LIVE",
+      "note": "历史/在执行借用 @ L0",
+      "hold": true
+    },
+    {
+      "resource": "M0",
+      "kind": "tool",
+      "interval": [
+        21645,
+        21679
+      ],
+      "owner": "PLAN1",
+      "note": "计划预占用 @ L1",
+      "hold": false
+    }
+  ]
+}

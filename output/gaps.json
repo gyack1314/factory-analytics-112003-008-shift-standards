@@ -1,0 +1,240 @@
+{
+  "insufficient_estimates": [
+    {
+      "pair": [
+        "A",
+        "B"
+      ],
+      "factory": "一厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 2,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 2 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "A",
+        "B"
+      ],
+      "factory": "三厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "A",
+        "B"
+      ],
+      "factory": "二厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "A",
+        "C"
+      ],
+      "factory": "三厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "A",
+        "C"
+      ],
+      "factory": "二厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "B",
+        "A"
+      ],
+      "factory": "一厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "B",
+        "A"
+      ],
+      "factory": "三厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "B",
+        "A"
+      ],
+      "factory": "二厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "C",
+        "A"
+      ],
+      "factory": "一厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "C",
+        "A"
+      ],
+      "factory": "二厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "X",
+        "Y"
+      ],
+      "factory": "一厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "X",
+        "Y"
+      ],
+      "factory": "三厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "Y",
+        "X"
+      ],
+      "factory": "三厂",
+      "spec": "V2",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    },
+    {
+      "pair": [
+        "Y",
+        "X"
+      ],
+      "factory": "二厂",
+      "spec": "V1",
+      "direct_complete_n": 4,
+      "censored_n": 1,
+      "note": "直接完整样本仅 4 条（门槛 5），另有 1 条截尾；已用可迁移样本补充分布",
+      "blocked_reasons": [],
+      "ledger_gap_requests": []
+    }
+  ],
+  "uncovered_directions": [
+    {
+      "pair": [
+        "A",
+        "A"
+      ],
+      "status": "无直接样本且迁移被阻断，需要补采",
+      "blocking_attributes": [
+        "前批产品族 B→A 的模具方向变化：右 → 左",
+        "前批产品族 C→A 的材料变化：乙 → 甲",
+        "前批产品族 C→A 的洁净等级变化：洁净 → 普通",
+        "前批产品族 Y→A 的模具方向变化：右 → 左"
+      ]
+    },
+    {
+      "pair": [
+        "A",
+        "X"
+      ],
+      "status": "无直接样本且迁移被阻断，需要补采",
+      "blocking_attributes": [
+        "前批产品族 B→A 的模具方向变化：右 → 左",
+        "前批产品族 C→A 的材料变化：乙 → 甲",
+        "前批产品族 C→A 的洁净等级变化：洁净 → 普通",
+        "前批产品族 Y→A 的模具方向变化：右 → 左"
+      ]
+    },
+    {
+      "pair": [
+        "B",
+        "B"
+      ],
+      "status": "无直接样本且迁移被阻断，需要补采",
+      "blocking_attributes": [
+        "前批产品族 A→B 的模具方向变化：左 → 右",
+        "前批产品族 C→B 的材料变化：乙 → 甲",
+        "前批产品族 C→B 的模具方向变化：左 → 右",
+        "前批产品族 C→B 的洁净等级变化：洁净 → 普通"
+      ]
+    },
+    {
+      "pair": [
+        "B",
+        "C"
+      ],
+      "status": "无直接样本且迁移被阻断，需要补采",
+      "blocking_attributes": [
+        "前批产品族 A→B 的模具方向变化：左 → 右",
+        "前批产品族 C→B 的材料变化：乙 → 甲",
+        "前批产品族 C→B 的模具方向变化：左 → 右",
+        "前批产品族 C→B 的洁净等级变化：洁净 → 普通"
+      ]
+    }
+  ]
+}

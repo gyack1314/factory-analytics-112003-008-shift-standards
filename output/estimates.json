@@ -1,0 +1,758 @@
+[
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 2,
+    "fallback_used": true,
+    "line_occupied_mean": 42.2,
+    "line_band": {
+      "p10": 38.12,
+      "p90": 46.52,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.556,
+    "approved": true
+  },
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.4,
+    "line_band": {
+      "p10": 38.6,
+      "p90": 43.8,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": true
+  },
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 43.2,
+    "line_band": {
+      "p10": 41.0,
+      "p90": 46.2,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.6,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 39.2,
+    "line_band": {
+      "p10": 35.84,
+      "p90": 42.56,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.333,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 42.0,
+    "line_band": {
+      "p10": 37.44,
+      "p90": 46.08,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.444,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "B"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.2,
+    "line_band": {
+      "p10": 37.2,
+      "p90": 45.4,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.6,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.8,
+    "line_band": {
+      "p10": 36.2,
+      "p90": 46.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.4,
+    "line_band": {
+      "p10": 40.0,
+      "p90": 43.8,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.6,
+    "approved": true
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 43.8,
+    "line_band": {
+      "p10": 41.0,
+      "p90": 46.6,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 42.75,
+    "line_band": {
+      "p10": 38.8,
+      "p90": 45.7,
+      "inflated_by": 1.0,
+      "n": 4
+    },
+    "failure_rate": 0.5,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 40.5,
+    "line_band": {
+      "p10": 35.9,
+      "p90": 45.1,
+      "inflated_by": 1.0,
+      "n": 4
+    },
+    "failure_rate": 0.75,
+    "approved": false
+  },
+  {
+    "pair": [
+      "A",
+      "C"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 40.6,
+    "line_band": {
+      "p10": 37.4,
+      "p90": 44.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.6,
+    "line_band": {
+      "p10": 38.2,
+      "p90": 45.2,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 41.8,
+    "line_band": {
+      "p10": 37.48,
+      "p90": 45.88,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 40.8,
+    "line_band": {
+      "p10": 35.52,
+      "p90": 45.36,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 38.6,
+    "line_band": {
+      "p10": 36.4,
+      "p90": 42.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.0,
+    "line_band": {
+      "p10": 35.0,
+      "p90": 46.2,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "B",
+      "A"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 38.2,
+    "line_band": {
+      "p10": 35.56,
+      "p90": 41.8,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 42.25,
+    "line_band": {
+      "p10": 38.9,
+      "p90": 45.8,
+      "inflated_by": 1.0,
+      "n": 4
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 40.0,
+    "line_band": {
+      "p10": 37.4,
+      "p90": 43.4,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 38.6,
+    "line_band": {
+      "p10": 36.0,
+      "p90": 42.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 42.8,
+    "line_band": {
+      "p10": 39.8,
+      "p90": 45.2,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 43.6,
+    "line_band": {
+      "p10": 39.6,
+      "p90": 46.6,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "C",
+      "A"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 42.5,
+    "line_band": {
+      "p10": 40.2,
+      "p90": 44.4,
+      "inflated_by": 1.0,
+      "n": 4
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 44.8,
+    "line_band": {
+      "p10": 42.8,
+      "p90": 47.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.6,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 41.6,
+    "line_band": {
+      "p10": 36.08,
+      "p90": 46.4,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.444,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 41.0,
+    "line_band": {
+      "p10": 38.36,
+      "p90": 43.88,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.556,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.6,
+    "line_band": {
+      "p10": 38.4,
+      "p90": 44.4,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.8,
+    "line_band": {
+      "p10": 38.8,
+      "p90": 44.0,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.4,
+    "approved": false
+  },
+  {
+    "pair": [
+      "X",
+      "Y"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 42.2,
+    "line_band": {
+      "p10": 37.8,
+      "p90": 46.6,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.6,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "一厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 43.4,
+    "line_band": {
+      "p10": 39.0,
+      "p90": 46.6,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "一厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 40.6,
+    "line_band": {
+      "p10": 35.8,
+      "p90": 44.8,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "三厂",
+    "spec": "V1",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 39.4,
+    "line_band": {
+      "p10": 37.0,
+      "p90": 43.4,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "三厂",
+    "spec": "V2",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 40.8,
+    "line_band": {
+      "p10": 35.52,
+      "p90": 47.04,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "二厂",
+    "spec": "V1",
+    "sufficient": false,
+    "direct_complete_n": 4,
+    "censored_n": 1,
+    "fallback_used": true,
+    "line_occupied_mean": 40.4,
+    "line_band": {
+      "p10": 35.84,
+      "p90": 45.2,
+      "inflated_by": 1.2,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  },
+  {
+    "pair": [
+      "Y",
+      "X"
+    ],
+    "factory": "二厂",
+    "spec": "V2",
+    "sufficient": true,
+    "direct_complete_n": 5,
+    "censored_n": 0,
+    "fallback_used": false,
+    "line_occupied_mean": 41.0,
+    "line_band": {
+      "p10": 39.2,
+      "p90": 42.6,
+      "inflated_by": 1.0,
+      "n": 5
+    },
+    "failure_rate": 0.0,
+    "approved": false
+  }
+]

@@ -1,0 +1,233 @@
+{
+  "feasible": false,
+  "review_min": 21670,
+  "responsible_shift": 0,
+  "new_plan_metrics": {
+    "scenario": "replan-candidate",
+    "description": "未开工锁定订单重排评估",
+    "orders": 3,
+    "total_qty": 150,
+    "total_line_minutes": 180,
+    "total_overlap_prep_min": 45,
+    "total_manual_minutes": 135,
+    "total_equipment_wait_min": 0,
+    "idle_gap_minutes": 0,
+    "line_minutes_per_100_units": 120.0,
+    "promise_breaches": [
+      "PLAN3",
+      "PLAN4"
+    ],
+    "resource_conflicts": [
+      {
+        "order_id": "PLAN3",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21655,
+          21730
+        ],
+        "conflict_interval": [
+          21670,
+          21679
+        ],
+        "with": "PLAN1",
+        "note": "计划预占用 @ L1"
+      },
+      {
+        "order_id": "PLAN2",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21655,
+          21730
+        ],
+        "conflict_interval": [
+          21670,
+          21679
+        ],
+        "with": "PLAN1",
+        "note": "计划预占用 @ L1"
+      },
+      {
+        "order_id": "PLAN2",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21655,
+          21730
+        ],
+        "conflict_interval": [
+          21670,
+          21730
+        ],
+        "with": "PLAN3",
+        "note": "PLAN3 借用 M0"
+      }
+    ]
+  },
+  "old_plan_metrics": {
+    "scenario": "current",
+    "description": "当前在执行版本的计划",
+    "orders": 4,
+    "total_qty": 185,
+    "total_line_minutes": 240,
+    "total_overlap_prep_min": 60,
+    "total_manual_minutes": 180,
+    "total_equipment_wait_min": 0,
+    "idle_gap_minutes": 0,
+    "line_minutes_per_100_units": 129.73,
+    "promise_breaches": [
+      "PLAN1",
+      "PLAN3",
+      "PLAN4"
+    ],
+    "resource_conflicts": [
+      {
+        "order_id": "PLAN2",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21655,
+          21730
+        ],
+        "conflict_interval": [
+          21670,
+          21679
+        ],
+        "with": "PLAN1",
+        "note": "计划预占用 @ L1"
+      },
+      {
+        "order_id": "PLAN2",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21655,
+          21730
+        ],
+        "conflict_interval": [
+          21670,
+          21730
+        ],
+        "with": "PLAN1",
+        "note": "PLAN1 借用 M0"
+      },
+      {
+        "order_id": "PLAN4",
+        "resource": "M0",
+        "kind": "tool",
+        "requested_interval": [
+          21780,
+          21855
+        ],
+        "conflict_interval": [
+          21780,
+          21839
+        ],
+        "with": "PLAN3",
+        "note": "PLAN3 借用 M0"
+      }
+    ]
+  },
+  "locked_orders": [
+    "PLAN1",
+    "PLAN3"
+  ],
+  "started_orders_excluded": [
+    "PLAN1"
+  ],
+  "order_impacts": [
+    {
+      "order_id": "PLAN3",
+      "locked": true,
+      "old_line": "L1",
+      "new_line": "L1",
+      "old_run_start": 21839,
+      "new_run_start": 21730,
+      "old_run_end": 21901,
+      "new_run_end": 21792,
+      "promise_min": 21760,
+      "promise_kept": false,
+      "knock_on_conflict": true,
+      "issues": [
+        "无 B→C V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21670–21679 与 PLAN1 冲突（计划预占用 @ L1）",
+        "完工 21792 晚于允诺 21760"
+      ]
+    },
+    {
+      "order_id": "PLAN2",
+      "locked": false,
+      "old_line": "L0",
+      "new_line": "L0",
+      "old_run_start": 21730,
+      "new_run_start": 21730,
+      "old_run_end": 21785,
+      "new_run_end": 21785,
+      "promise_min": 21790,
+      "promise_kept": true,
+      "knock_on_conflict": false,
+      "issues": [
+        "无 A→A V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21670–21679 与 PLAN1 冲突（计划预占用 @ L1）",
+        "共用工具 M0 在 21670–21730 与 PLAN3 冲突（PLAN3 借用 M0）"
+      ]
+    },
+    {
+      "order_id": "PLAN4",
+      "locked": false,
+      "old_line": "L0",
+      "new_line": "L0",
+      "old_run_start": 21855,
+      "new_run_start": 21855,
+      "old_run_end": 21881,
+      "new_run_end": 21881,
+      "promise_min": 21810,
+      "promise_kept": false,
+      "knock_on_conflict": true,
+      "issues": [
+        "无 A→X V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "完工 21881 晚于允诺 21810"
+      ]
+    }
+  ],
+  "knock_on_conflicts": [
+    {
+      "order_id": "PLAN3",
+      "locked": true,
+      "old_line": "L1",
+      "new_line": "L1",
+      "old_run_start": 21839,
+      "new_run_start": 21730,
+      "old_run_end": 21901,
+      "new_run_end": 21792,
+      "promise_min": 21760,
+      "promise_kept": false,
+      "knock_on_conflict": true,
+      "issues": [
+        "无 B→C V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "共用工具 M0 在 21670–21679 与 PLAN1 冲突（计划预占用 @ L1）",
+        "完工 21792 晚于允诺 21760"
+      ]
+    },
+    {
+      "order_id": "PLAN4",
+      "locked": false,
+      "old_line": "L0",
+      "new_line": "L0",
+      "old_run_start": 21855,
+      "new_run_start": 21855,
+      "old_run_end": 21881,
+      "new_run_end": 21881,
+      "promise_min": 21810,
+      "promise_kept": false,
+      "knock_on_conflict": true,
+      "issues": [
+        "无 A→X V1 估计且无可用迁移来源，按保守占位 60 分钟占线",
+        "完工 21881 晚于允诺 21810"
+      ]
+    }
+  ],
+  "requires_planner_confirmation": true,
+  "note": "确认新版本前原计划保留；责任班次为复核时点所在班次 0"
+}

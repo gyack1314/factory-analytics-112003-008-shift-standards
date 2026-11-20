@@ -9,3 +9,12 @@
 - 查看目录与样本数量：`python3 inspect_inputs.py`
 - 运行资料测试：`python3 -m unittest discover -s tests -v`
 - 编译检查：`python3 -m compileall -q inspect_inputs.py tests`
+
+## 换型工时重算应用
+
+基于上述资料的应用位于 `changeover/`，说明文档见
+[CHANGEOVER_APP.md](CHANGEOVER_APP.md)。仅用标准库，推荐隔离模式运行：
+
+- 应用测试（71 个用例）：`python3 -I run_tests.py`
+- 命令行：`python3 -I run_cli.py --help`
+- 示例输出：`output/`，运行态台账与计划版本：`state/`
