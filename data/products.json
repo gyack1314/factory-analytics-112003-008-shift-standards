@@ -1,0 +1,32 @@
+[
+  {
+    "family": "A",
+    "chemistry": "甲",
+    "cleanliness": "普通",
+    "die_direction": "左"
+  },
+  {
+    "family": "B",
+    "chemistry": "甲",
+    "cleanliness": "普通",
+    "die_direction": "右"
+  },
+  {
+    "family": "C",
+    "chemistry": "乙",
+    "cleanliness": "洁净",
+    "die_direction": "左"
+  },
+  {
+    "family": "X",
+    "chemistry": "甲",
+    "cleanliness": "普通",
+    "die_direction": "左"
+  },
+  {
+    "family": "Y",
+    "chemistry": "甲",
+    "cleanliness": "普通",
+    "die_direction": "右"
+  }
+]

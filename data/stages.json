@@ -1,0 +1,4850 @@
+[
+  {
+    "switch": "C0",
+    "stage": "预准备",
+    "start_min": 3,
+    "end_min": 26,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C0",
+    "stage": "清洗",
+    "start_min": 21,
+    "end_min": 39,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C0",
+    "stage": "首件",
+    "start_min": 41,
+    "end_min": 53,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C0",
+    "stage": "重检",
+    "start_min": 56,
+    "end_min": null,
+    "result": "进行中",
+    "worker": "E0"
+  },
+  {
+    "switch": "C0",
+    "stage": "设备等待",
+    "start_min": 24,
+    "end_min": 31,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C1",
+    "stage": "预准备",
+    "start_min": 123,
+    "end_min": 146,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C1",
+    "stage": "清洗",
+    "start_min": 141,
+    "end_min": 162,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C1",
+    "stage": "首件",
+    "start_min": 164,
+    "end_min": 176,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C2",
+    "stage": "预准备",
+    "start_min": 243,
+    "end_min": 266,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C2",
+    "stage": "清洗",
+    "start_min": 261,
+    "end_min": 279,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C2",
+    "stage": "首件",
+    "start_min": 281,
+    "end_min": 293,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C3",
+    "stage": "预准备",
+    "start_min": 363,
+    "end_min": 386,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C3",
+    "stage": "清洗",
+    "start_min": 381,
+    "end_min": 400,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C3",
+    "stage": "首件",
+    "start_min": 402,
+    "end_min": 414,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C4",
+    "stage": "预准备",
+    "start_min": 483,
+    "end_min": 506,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C4",
+    "stage": "清洗",
+    "start_min": 501,
+    "end_min": 519,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C4",
+    "stage": "首件",
+    "start_min": 521,
+    "end_min": 533,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C4",
+    "stage": "重检",
+    "start_min": 536,
+    "end_min": 547,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C5",
+    "stage": "预准备",
+    "start_min": 603,
+    "end_min": 626,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C5",
+    "stage": "清洗",
+    "start_min": 621,
+    "end_min": 642,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C5",
+    "stage": "首件",
+    "start_min": 644,
+    "end_min": 656,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C6",
+    "stage": "预准备",
+    "start_min": 723,
+    "end_min": 746,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C6",
+    "stage": "清洗",
+    "start_min": 741,
+    "end_min": 758,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C6",
+    "stage": "首件",
+    "start_min": 760,
+    "end_min": 772,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C7",
+    "stage": "预准备",
+    "start_min": 843,
+    "end_min": 866,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C7",
+    "stage": "清洗",
+    "start_min": 861,
+    "end_min": 880,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C7",
+    "stage": "首件",
+    "start_min": 882,
+    "end_min": 894,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C8",
+    "stage": "预准备",
+    "start_min": 963,
+    "end_min": 986,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C8",
+    "stage": "清洗",
+    "start_min": 981,
+    "end_min": 999,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C8",
+    "stage": "首件",
+    "start_min": 1001,
+    "end_min": 1013,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C8",
+    "stage": "重检",
+    "start_min": 1016,
+    "end_min": 1023,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C9",
+    "stage": "预准备",
+    "start_min": 1083,
+    "end_min": 1106,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C9",
+    "stage": "清洗",
+    "start_min": 1101,
+    "end_min": 1119,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C9",
+    "stage": "首件",
+    "start_min": 1121,
+    "end_min": 1133,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C10",
+    "stage": "预准备",
+    "start_min": 1203,
+    "end_min": 1226,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C10",
+    "stage": "清洗",
+    "start_min": 1221,
+    "end_min": 1240,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C10",
+    "stage": "首件",
+    "start_min": 1242,
+    "end_min": 1254,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C11",
+    "stage": "预准备",
+    "start_min": 1323,
+    "end_min": 1346,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C11",
+    "stage": "清洗",
+    "start_min": 1341,
+    "end_min": 1358,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C11",
+    "stage": "首件",
+    "start_min": 1360,
+    "end_min": 1372,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C11",
+    "stage": "设备等待",
+    "start_min": 1344,
+    "end_min": 1351,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C12",
+    "stage": "预准备",
+    "start_min": 1443,
+    "end_min": 1466,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C12",
+    "stage": "清洗",
+    "start_min": 1461,
+    "end_min": 1481,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C12",
+    "stage": "首件",
+    "start_min": 1483,
+    "end_min": 1495,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C12",
+    "stage": "重检",
+    "start_min": 1498,
+    "end_min": 1501,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C13",
+    "stage": "预准备",
+    "start_min": 1563,
+    "end_min": 1586,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C13",
+    "stage": "清洗",
+    "start_min": 1581,
+    "end_min": 1599,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C13",
+    "stage": "首件",
+    "start_min": 1601,
+    "end_min": 1613,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C14",
+    "stage": "预准备",
+    "start_min": 1683,
+    "end_min": 1706,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C14",
+    "stage": "清洗",
+    "start_min": 1701,
+    "end_min": 1718,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C14",
+    "stage": "首件",
+    "start_min": 1720,
+    "end_min": 1732,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C15",
+    "stage": "预准备",
+    "start_min": 1803,
+    "end_min": 1826,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C15",
+    "stage": "清洗",
+    "start_min": 1821,
+    "end_min": 1841,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C15",
+    "stage": "首件",
+    "start_min": 1843,
+    "end_min": 1855,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C16",
+    "stage": "预准备",
+    "start_min": 1923,
+    "end_min": 1946,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C16",
+    "stage": "清洗",
+    "start_min": 1941,
+    "end_min": 1960,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C16",
+    "stage": "首件",
+    "start_min": 1962,
+    "end_min": 1974,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C16",
+    "stage": "重检",
+    "start_min": 1977,
+    "end_min": 1985,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C17",
+    "stage": "预准备",
+    "start_min": 2043,
+    "end_min": 2066,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C17",
+    "stage": "清洗",
+    "start_min": 2061,
+    "end_min": 2080,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C17",
+    "stage": "首件",
+    "start_min": 2082,
+    "end_min": 2094,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C18",
+    "stage": "预准备",
+    "start_min": 2163,
+    "end_min": 2186,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C18",
+    "stage": "清洗",
+    "start_min": 2181,
+    "end_min": 2202,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C18",
+    "stage": "首件",
+    "start_min": 2204,
+    "end_min": 2216,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C19",
+    "stage": "预准备",
+    "start_min": 2283,
+    "end_min": 2306,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C19",
+    "stage": "清洗",
+    "start_min": 2301,
+    "end_min": 2320,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C19",
+    "stage": "首件",
+    "start_min": 2322,
+    "end_min": 2334,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C20",
+    "stage": "预准备",
+    "start_min": 2403,
+    "end_min": 2426,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C20",
+    "stage": "清洗",
+    "start_min": 2421,
+    "end_min": 2438,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C20",
+    "stage": "首件",
+    "start_min": 2440,
+    "end_min": 2452,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C20",
+    "stage": "重检",
+    "start_min": 2455,
+    "end_min": 2458,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C21",
+    "stage": "预准备",
+    "start_min": 2523,
+    "end_min": 2546,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C21",
+    "stage": "清洗",
+    "start_min": 2541,
+    "end_min": 2562,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C21",
+    "stage": "首件",
+    "start_min": 2564,
+    "end_min": 2576,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C22",
+    "stage": "预准备",
+    "start_min": 2643,
+    "end_min": 2666,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C22",
+    "stage": "清洗",
+    "start_min": 2661,
+    "end_min": 2680,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C22",
+    "stage": "首件",
+    "start_min": 2682,
+    "end_min": 2694,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C22",
+    "stage": "设备等待",
+    "start_min": 2664,
+    "end_min": 2671,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C23",
+    "stage": "预准备",
+    "start_min": 2763,
+    "end_min": 2786,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C23",
+    "stage": "清洗",
+    "start_min": 2781,
+    "end_min": 2798,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C23",
+    "stage": "首件",
+    "start_min": 2800,
+    "end_min": 2812,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C24",
+    "stage": "预准备",
+    "start_min": 2883,
+    "end_min": 2906,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C24",
+    "stage": "清洗",
+    "start_min": 2901,
+    "end_min": 2919,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C24",
+    "stage": "首件",
+    "start_min": 2921,
+    "end_min": 2933,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C24",
+    "stage": "重检",
+    "start_min": 2936,
+    "end_min": 2940,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C25",
+    "stage": "预准备",
+    "start_min": 3003,
+    "end_min": 3026,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C25",
+    "stage": "清洗",
+    "start_min": 3021,
+    "end_min": 3040,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C25",
+    "stage": "首件",
+    "start_min": 3042,
+    "end_min": 3054,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C26",
+    "stage": "预准备",
+    "start_min": 3123,
+    "end_min": 3146,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C26",
+    "stage": "清洗",
+    "start_min": 3141,
+    "end_min": 3159,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C26",
+    "stage": "首件",
+    "start_min": 3161,
+    "end_min": 3173,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C27",
+    "stage": "预准备",
+    "start_min": 3243,
+    "end_min": 3266,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C27",
+    "stage": "清洗",
+    "start_min": 3261,
+    "end_min": 3282,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C27",
+    "stage": "首件",
+    "start_min": 3284,
+    "end_min": 3296,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C28",
+    "stage": "预准备",
+    "start_min": 3363,
+    "end_min": 3386,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C28",
+    "stage": "清洗",
+    "start_min": 3381,
+    "end_min": 3400,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C28",
+    "stage": "首件",
+    "start_min": 3402,
+    "end_min": 3414,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C28",
+    "stage": "重检",
+    "start_min": 3417,
+    "end_min": 3424,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C29",
+    "stage": "预准备",
+    "start_min": 3483,
+    "end_min": 3506,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C29",
+    "stage": "清洗",
+    "start_min": 3501,
+    "end_min": 3520,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C29",
+    "stage": "首件",
+    "start_min": 3522,
+    "end_min": 3534,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C30",
+    "stage": "预准备",
+    "start_min": 3603,
+    "end_min": 3626,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C30",
+    "stage": "清洗",
+    "start_min": 3621,
+    "end_min": 3642,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C30",
+    "stage": "首件",
+    "start_min": 3644,
+    "end_min": 3656,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C31",
+    "stage": "预准备",
+    "start_min": 3723,
+    "end_min": 3746,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C31",
+    "stage": "清洗",
+    "start_min": 3741,
+    "end_min": 3760,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C31",
+    "stage": "首件",
+    "start_min": 3762,
+    "end_min": 3774,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C32",
+    "stage": "预准备",
+    "start_min": 3843,
+    "end_min": 3866,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C32",
+    "stage": "清洗",
+    "start_min": 3861,
+    "end_min": 3881,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C32",
+    "stage": "首件",
+    "start_min": 3883,
+    "end_min": 3895,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C32",
+    "stage": "重检",
+    "start_min": 3898,
+    "end_min": 3901,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C33",
+    "stage": "预准备",
+    "start_min": 3963,
+    "end_min": 3986,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C33",
+    "stage": "清洗",
+    "start_min": 3981,
+    "end_min": 3998,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C33",
+    "stage": "首件",
+    "start_min": 4000,
+    "end_min": 4012,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C33",
+    "stage": "设备等待",
+    "start_min": 3984,
+    "end_min": 3991,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C34",
+    "stage": "预准备",
+    "start_min": 4083,
+    "end_min": 4106,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C34",
+    "stage": "清洗",
+    "start_min": 4101,
+    "end_min": 4119,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C34",
+    "stage": "首件",
+    "start_min": 4121,
+    "end_min": 4133,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C35",
+    "stage": "预准备",
+    "start_min": 4203,
+    "end_min": 4226,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C35",
+    "stage": "清洗",
+    "start_min": 4221,
+    "end_min": 4242,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C35",
+    "stage": "首件",
+    "start_min": 4244,
+    "end_min": 4256,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C36",
+    "stage": "预准备",
+    "start_min": 4323,
+    "end_min": 4346,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C36",
+    "stage": "清洗",
+    "start_min": 4341,
+    "end_min": 4358,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C36",
+    "stage": "首件",
+    "start_min": 4360,
+    "end_min": 4372,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C36",
+    "stage": "重检",
+    "start_min": 4375,
+    "end_min": 4382,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C37",
+    "stage": "预准备",
+    "start_min": 4443,
+    "end_min": 4466,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C37",
+    "stage": "清洗",
+    "start_min": 4461,
+    "end_min": 4478,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C37",
+    "stage": "首件",
+    "start_min": 4480,
+    "end_min": 4492,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C38",
+    "stage": "预准备",
+    "start_min": 4563,
+    "end_min": 4586,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C38",
+    "stage": "清洗",
+    "start_min": 4581,
+    "end_min": 4599,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C38",
+    "stage": "首件",
+    "start_min": 4601,
+    "end_min": 4613,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C39",
+    "stage": "预准备",
+    "start_min": 4683,
+    "end_min": 4706,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C39",
+    "stage": "清洗",
+    "start_min": 4701,
+    "end_min": 4721,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C39",
+    "stage": "首件",
+    "start_min": 4723,
+    "end_min": 4735,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C40",
+    "stage": "预准备",
+    "start_min": 4803,
+    "end_min": 4826,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C40",
+    "stage": "清洗",
+    "start_min": 4821,
+    "end_min": 4838,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C40",
+    "stage": "首件",
+    "start_min": 4840,
+    "end_min": 4852,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C40",
+    "stage": "重检",
+    "start_min": 4855,
+    "end_min": 4864,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C41",
+    "stage": "预准备",
+    "start_min": 4923,
+    "end_min": 4946,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C41",
+    "stage": "清洗",
+    "start_min": 4941,
+    "end_min": 4958,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C41",
+    "stage": "首件",
+    "start_min": 4960,
+    "end_min": 4972,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C42",
+    "stage": "预准备",
+    "start_min": 5043,
+    "end_min": 5066,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C42",
+    "stage": "清洗",
+    "start_min": 5061,
+    "end_min": 5081,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C42",
+    "stage": "首件",
+    "start_min": 5083,
+    "end_min": 5095,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C43",
+    "stage": "预准备",
+    "start_min": 5163,
+    "end_min": 5186,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C43",
+    "stage": "清洗",
+    "start_min": 5181,
+    "end_min": 5199,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C43",
+    "stage": "首件",
+    "start_min": 5201,
+    "end_min": 5213,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C44",
+    "stage": "预准备",
+    "start_min": 5283,
+    "end_min": 5306,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C44",
+    "stage": "清洗",
+    "start_min": 5301,
+    "end_min": 5322,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C44",
+    "stage": "首件",
+    "start_min": 5324,
+    "end_min": 5336,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C44",
+    "stage": "重检",
+    "start_min": 5339,
+    "end_min": 5346,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C44",
+    "stage": "设备等待",
+    "start_min": 5304,
+    "end_min": 5311,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C45",
+    "stage": "预准备",
+    "start_min": 5403,
+    "end_min": 5426,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C45",
+    "stage": "清洗",
+    "start_min": 5421,
+    "end_min": 5440,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C45",
+    "stage": "首件",
+    "start_min": 5442,
+    "end_min": 5454,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C46",
+    "stage": "预准备",
+    "start_min": 5523,
+    "end_min": 5546,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C46",
+    "stage": "清洗",
+    "start_min": 5541,
+    "end_min": 5558,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C46",
+    "stage": "首件",
+    "start_min": 5560,
+    "end_min": 5572,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C47",
+    "stage": "预准备",
+    "start_min": 5643,
+    "end_min": 5666,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C47",
+    "stage": "清洗",
+    "start_min": 5661,
+    "end_min": 5681,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C47",
+    "stage": "首件",
+    "start_min": 5683,
+    "end_min": 5695,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C48",
+    "stage": "预准备",
+    "start_min": 5763,
+    "end_min": 5786,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C48",
+    "stage": "清洗",
+    "start_min": 5781,
+    "end_min": 5800,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C48",
+    "stage": "首件",
+    "start_min": 5802,
+    "end_min": 5814,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C48",
+    "stage": "重检",
+    "start_min": 5817,
+    "end_min": 5825,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C49",
+    "stage": "预准备",
+    "start_min": 5883,
+    "end_min": 5906,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C49",
+    "stage": "清洗",
+    "start_min": 5901,
+    "end_min": 5919,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C49",
+    "stage": "首件",
+    "start_min": 5921,
+    "end_min": 5933,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C50",
+    "stage": "预准备",
+    "start_min": 6003,
+    "end_min": 6026,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C50",
+    "stage": "清洗",
+    "start_min": 6021,
+    "end_min": 6039,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C50",
+    "stage": "首件",
+    "start_min": 6041,
+    "end_min": 6053,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C51",
+    "stage": "预准备",
+    "start_min": 6123,
+    "end_min": 6146,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C51",
+    "stage": "清洗",
+    "start_min": 6141,
+    "end_min": 6161,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C51",
+    "stage": "首件",
+    "start_min": 6163,
+    "end_min": 6175,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C52",
+    "stage": "预准备",
+    "start_min": 6243,
+    "end_min": 6266,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C52",
+    "stage": "清洗",
+    "start_min": 6261,
+    "end_min": 6281,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C52",
+    "stage": "首件",
+    "start_min": 6283,
+    "end_min": 6295,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C52",
+    "stage": "重检",
+    "start_min": 6298,
+    "end_min": null,
+    "result": "进行中",
+    "worker": "E1"
+  },
+  {
+    "switch": "C53",
+    "stage": "预准备",
+    "start_min": 6363,
+    "end_min": 6386,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C53",
+    "stage": "清洗",
+    "start_min": 6381,
+    "end_min": 6401,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C53",
+    "stage": "首件",
+    "start_min": 6403,
+    "end_min": 6415,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C54",
+    "stage": "预准备",
+    "start_min": 6483,
+    "end_min": 6506,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C54",
+    "stage": "清洗",
+    "start_min": 6501,
+    "end_min": 6518,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C54",
+    "stage": "首件",
+    "start_min": 6520,
+    "end_min": 6532,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C55",
+    "stage": "预准备",
+    "start_min": 6603,
+    "end_min": 6626,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C55",
+    "stage": "清洗",
+    "start_min": 6621,
+    "end_min": 6641,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C55",
+    "stage": "首件",
+    "start_min": 6643,
+    "end_min": 6655,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C55",
+    "stage": "设备等待",
+    "start_min": 6624,
+    "end_min": 6631,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C56",
+    "stage": "预准备",
+    "start_min": 6723,
+    "end_min": 6746,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C56",
+    "stage": "清洗",
+    "start_min": 6741,
+    "end_min": 6758,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C56",
+    "stage": "首件",
+    "start_min": 6760,
+    "end_min": 6772,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C56",
+    "stage": "重检",
+    "start_min": 6775,
+    "end_min": 6784,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C57",
+    "stage": "预准备",
+    "start_min": 6843,
+    "end_min": 6866,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C57",
+    "stage": "清洗",
+    "start_min": 6861,
+    "end_min": 6879,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C57",
+    "stage": "首件",
+    "start_min": 6881,
+    "end_min": 6893,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C58",
+    "stage": "预准备",
+    "start_min": 6963,
+    "end_min": 6986,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C58",
+    "stage": "清洗",
+    "start_min": 6981,
+    "end_min": 7002,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C58",
+    "stage": "首件",
+    "start_min": 7004,
+    "end_min": 7016,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C59",
+    "stage": "预准备",
+    "start_min": 7083,
+    "end_min": 7106,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C59",
+    "stage": "清洗",
+    "start_min": 7101,
+    "end_min": 7120,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C59",
+    "stage": "首件",
+    "start_min": 7122,
+    "end_min": 7134,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C60",
+    "stage": "预准备",
+    "start_min": 7203,
+    "end_min": 7226,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C60",
+    "stage": "清洗",
+    "start_min": 7221,
+    "end_min": 7240,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C60",
+    "stage": "首件",
+    "start_min": 7242,
+    "end_min": 7254,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C60",
+    "stage": "重检",
+    "start_min": 7257,
+    "end_min": 7263,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C61",
+    "stage": "预准备",
+    "start_min": 7323,
+    "end_min": 7346,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C61",
+    "stage": "清洗",
+    "start_min": 7341,
+    "end_min": 7359,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C61",
+    "stage": "首件",
+    "start_min": 7361,
+    "end_min": 7373,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C62",
+    "stage": "预准备",
+    "start_min": 7443,
+    "end_min": 7466,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C62",
+    "stage": "清洗",
+    "start_min": 7461,
+    "end_min": 7478,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C62",
+    "stage": "首件",
+    "start_min": 7480,
+    "end_min": 7492,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C63",
+    "stage": "预准备",
+    "start_min": 7563,
+    "end_min": 7586,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C63",
+    "stage": "清洗",
+    "start_min": 7581,
+    "end_min": 7602,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C63",
+    "stage": "首件",
+    "start_min": 7604,
+    "end_min": 7616,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C64",
+    "stage": "预准备",
+    "start_min": 7683,
+    "end_min": 7706,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C64",
+    "stage": "清洗",
+    "start_min": 7701,
+    "end_min": 7718,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C64",
+    "stage": "首件",
+    "start_min": 7720,
+    "end_min": 7732,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C64",
+    "stage": "重检",
+    "start_min": 7735,
+    "end_min": 7737,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C65",
+    "stage": "预准备",
+    "start_min": 7803,
+    "end_min": 7826,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C65",
+    "stage": "清洗",
+    "start_min": 7821,
+    "end_min": 7842,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C65",
+    "stage": "首件",
+    "start_min": 7844,
+    "end_min": 7856,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C66",
+    "stage": "预准备",
+    "start_min": 7923,
+    "end_min": 7946,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C66",
+    "stage": "清洗",
+    "start_min": 7941,
+    "end_min": 7960,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C66",
+    "stage": "首件",
+    "start_min": 7962,
+    "end_min": 7974,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C66",
+    "stage": "设备等待",
+    "start_min": 7944,
+    "end_min": 7951,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C67",
+    "stage": "预准备",
+    "start_min": 8043,
+    "end_min": 8066,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C67",
+    "stage": "清洗",
+    "start_min": 8061,
+    "end_min": 8079,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C67",
+    "stage": "首件",
+    "start_min": 8081,
+    "end_min": 8093,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C68",
+    "stage": "预准备",
+    "start_min": 8163,
+    "end_min": 8186,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C68",
+    "stage": "清洗",
+    "start_min": 8181,
+    "end_min": 8201,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C68",
+    "stage": "首件",
+    "start_min": 8203,
+    "end_min": 8215,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C68",
+    "stage": "重检",
+    "start_min": 8218,
+    "end_min": 8226,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C69",
+    "stage": "预准备",
+    "start_min": 8283,
+    "end_min": 8306,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C69",
+    "stage": "清洗",
+    "start_min": 8301,
+    "end_min": 8319,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C69",
+    "stage": "首件",
+    "start_min": 8321,
+    "end_min": 8333,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C70",
+    "stage": "预准备",
+    "start_min": 8403,
+    "end_min": 8426,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C70",
+    "stage": "清洗",
+    "start_min": 8421,
+    "end_min": 8442,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C70",
+    "stage": "首件",
+    "start_min": 8444,
+    "end_min": 8456,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C71",
+    "stage": "预准备",
+    "start_min": 8523,
+    "end_min": 8546,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C71",
+    "stage": "清洗",
+    "start_min": 8541,
+    "end_min": 8560,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C71",
+    "stage": "首件",
+    "start_min": 8562,
+    "end_min": 8574,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C72",
+    "stage": "预准备",
+    "start_min": 8643,
+    "end_min": 8666,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C72",
+    "stage": "清洗",
+    "start_min": 8661,
+    "end_min": 8678,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C72",
+    "stage": "首件",
+    "start_min": 8680,
+    "end_min": 8692,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C72",
+    "stage": "重检",
+    "start_min": 8695,
+    "end_min": 8697,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C73",
+    "stage": "预准备",
+    "start_min": 8763,
+    "end_min": 8786,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C73",
+    "stage": "清洗",
+    "start_min": 8781,
+    "end_min": 8801,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C73",
+    "stage": "首件",
+    "start_min": 8803,
+    "end_min": 8815,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C74",
+    "stage": "预准备",
+    "start_min": 8883,
+    "end_min": 8906,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C74",
+    "stage": "清洗",
+    "start_min": 8901,
+    "end_min": 8921,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C74",
+    "stage": "首件",
+    "start_min": 8923,
+    "end_min": 8935,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C75",
+    "stage": "预准备",
+    "start_min": 9003,
+    "end_min": 9026,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C75",
+    "stage": "清洗",
+    "start_min": 9021,
+    "end_min": 9038,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C75",
+    "stage": "首件",
+    "start_min": 9040,
+    "end_min": 9052,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C76",
+    "stage": "预准备",
+    "start_min": 9123,
+    "end_min": 9146,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C76",
+    "stage": "清洗",
+    "start_min": 9141,
+    "end_min": 9162,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C76",
+    "stage": "首件",
+    "start_min": 9164,
+    "end_min": 9176,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C76",
+    "stage": "重检",
+    "start_min": 9179,
+    "end_min": 9180,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C77",
+    "stage": "预准备",
+    "start_min": 9243,
+    "end_min": 9266,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C77",
+    "stage": "清洗",
+    "start_min": 9261,
+    "end_min": 9279,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C77",
+    "stage": "首件",
+    "start_min": 9281,
+    "end_min": 9293,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C77",
+    "stage": "设备等待",
+    "start_min": 9264,
+    "end_min": 9271,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C78",
+    "stage": "预准备",
+    "start_min": 9363,
+    "end_min": 9386,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C78",
+    "stage": "清洗",
+    "start_min": 9381,
+    "end_min": 9398,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C78",
+    "stage": "首件",
+    "start_min": 9400,
+    "end_min": 9412,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C79",
+    "stage": "预准备",
+    "start_min": 9483,
+    "end_min": 9506,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C79",
+    "stage": "清洗",
+    "start_min": 9501,
+    "end_min": 9519,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C79",
+    "stage": "首件",
+    "start_min": 9521,
+    "end_min": 9533,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C80",
+    "stage": "预准备",
+    "start_min": 9603,
+    "end_min": 9626,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C80",
+    "stage": "清洗",
+    "start_min": 9621,
+    "end_min": 9638,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C80",
+    "stage": "首件",
+    "start_min": 9640,
+    "end_min": 9652,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C80",
+    "stage": "重检",
+    "start_min": 9655,
+    "end_min": 9657,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C81",
+    "stage": "预准备",
+    "start_min": 9723,
+    "end_min": 9746,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C81",
+    "stage": "清洗",
+    "start_min": 9741,
+    "end_min": 9758,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C81",
+    "stage": "首件",
+    "start_min": 9760,
+    "end_min": 9772,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C82",
+    "stage": "预准备",
+    "start_min": 9843,
+    "end_min": 9866,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C82",
+    "stage": "清洗",
+    "start_min": 9861,
+    "end_min": 9882,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C82",
+    "stage": "首件",
+    "start_min": 9884,
+    "end_min": 9896,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C83",
+    "stage": "预准备",
+    "start_min": 9963,
+    "end_min": 9986,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C83",
+    "stage": "清洗",
+    "start_min": 9981,
+    "end_min": 9998,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C83",
+    "stage": "首件",
+    "start_min": 10000,
+    "end_min": 10012,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C84",
+    "stage": "预准备",
+    "start_min": 10083,
+    "end_min": 10106,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C84",
+    "stage": "清洗",
+    "start_min": 10101,
+    "end_min": 10119,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C84",
+    "stage": "首件",
+    "start_min": 10121,
+    "end_min": 10133,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C84",
+    "stage": "重检",
+    "start_min": 10136,
+    "end_min": 10141,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C85",
+    "stage": "预准备",
+    "start_min": 10203,
+    "end_min": 10226,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C85",
+    "stage": "清洗",
+    "start_min": 10221,
+    "end_min": 10238,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C85",
+    "stage": "首件",
+    "start_min": 10240,
+    "end_min": 10252,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C86",
+    "stage": "预准备",
+    "start_min": 10323,
+    "end_min": 10346,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C86",
+    "stage": "清洗",
+    "start_min": 10341,
+    "end_min": 10358,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C86",
+    "stage": "首件",
+    "start_min": 10360,
+    "end_min": 10372,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C87",
+    "stage": "预准备",
+    "start_min": 10443,
+    "end_min": 10466,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C87",
+    "stage": "清洗",
+    "start_min": 10461,
+    "end_min": 10482,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C87",
+    "stage": "首件",
+    "start_min": 10484,
+    "end_min": 10496,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C88",
+    "stage": "预准备",
+    "start_min": 10563,
+    "end_min": 10586,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C88",
+    "stage": "清洗",
+    "start_min": 10581,
+    "end_min": 10600,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C88",
+    "stage": "首件",
+    "start_min": 10602,
+    "end_min": 10614,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C88",
+    "stage": "重检",
+    "start_min": 10617,
+    "end_min": 10619,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C88",
+    "stage": "设备等待",
+    "start_min": 10584,
+    "end_min": 10591,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C89",
+    "stage": "预准备",
+    "start_min": 10683,
+    "end_min": 10706,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C89",
+    "stage": "清洗",
+    "start_min": 10701,
+    "end_min": 10721,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C89",
+    "stage": "首件",
+    "start_min": 10723,
+    "end_min": 10735,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C90",
+    "stage": "预准备",
+    "start_min": 10803,
+    "end_min": 10826,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C90",
+    "stage": "清洗",
+    "start_min": 10821,
+    "end_min": 10842,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C90",
+    "stage": "首件",
+    "start_min": 10844,
+    "end_min": 10856,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C91",
+    "stage": "预准备",
+    "start_min": 10923,
+    "end_min": 10946,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C91",
+    "stage": "清洗",
+    "start_min": 10941,
+    "end_min": 10958,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C91",
+    "stage": "首件",
+    "start_min": 10960,
+    "end_min": 10972,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C92",
+    "stage": "预准备",
+    "start_min": 11043,
+    "end_min": 11066,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C92",
+    "stage": "清洗",
+    "start_min": 11061,
+    "end_min": 11080,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C92",
+    "stage": "首件",
+    "start_min": 11082,
+    "end_min": 11094,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C92",
+    "stage": "重检",
+    "start_min": 11097,
+    "end_min": 11095,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C93",
+    "stage": "预准备",
+    "start_min": 11163,
+    "end_min": 11186,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C93",
+    "stage": "清洗",
+    "start_min": 11181,
+    "end_min": 11202,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C93",
+    "stage": "首件",
+    "start_min": 11204,
+    "end_min": 11216,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C94",
+    "stage": "预准备",
+    "start_min": 11283,
+    "end_min": 11306,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C94",
+    "stage": "清洗",
+    "start_min": 11301,
+    "end_min": 11321,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C94",
+    "stage": "首件",
+    "start_min": 11323,
+    "end_min": 11335,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C95",
+    "stage": "预准备",
+    "start_min": 11403,
+    "end_min": 11426,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C95",
+    "stage": "清洗",
+    "start_min": 11421,
+    "end_min": 11440,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C95",
+    "stage": "首件",
+    "start_min": 11442,
+    "end_min": 11454,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C96",
+    "stage": "预准备",
+    "start_min": 11523,
+    "end_min": 11546,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C96",
+    "stage": "清洗",
+    "start_min": 11541,
+    "end_min": 11561,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C96",
+    "stage": "首件",
+    "start_min": 11563,
+    "end_min": 11575,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C96",
+    "stage": "重检",
+    "start_min": 11578,
+    "end_min": 11583,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C97",
+    "stage": "预准备",
+    "start_min": 11643,
+    "end_min": 11666,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C97",
+    "stage": "清洗",
+    "start_min": 11661,
+    "end_min": 11680,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C97",
+    "stage": "首件",
+    "start_min": 11682,
+    "end_min": 11694,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C98",
+    "stage": "预准备",
+    "start_min": 11763,
+    "end_min": 11786,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C98",
+    "stage": "清洗",
+    "start_min": 11781,
+    "end_min": 11802,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C98",
+    "stage": "首件",
+    "start_min": 11804,
+    "end_min": 11816,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C99",
+    "stage": "预准备",
+    "start_min": 11883,
+    "end_min": 11906,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C99",
+    "stage": "清洗",
+    "start_min": 11901,
+    "end_min": 11922,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C99",
+    "stage": "首件",
+    "start_min": 11924,
+    "end_min": 11936,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C99",
+    "stage": "设备等待",
+    "start_min": 11904,
+    "end_min": 11911,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C100",
+    "stage": "预准备",
+    "start_min": 12003,
+    "end_min": 12026,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C100",
+    "stage": "清洗",
+    "start_min": 12021,
+    "end_min": 12039,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C100",
+    "stage": "首件",
+    "start_min": 12041,
+    "end_min": 12053,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C100",
+    "stage": "重检",
+    "start_min": 12056,
+    "end_min": 12055,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C101",
+    "stage": "预准备",
+    "start_min": 12123,
+    "end_min": 12146,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C101",
+    "stage": "清洗",
+    "start_min": 12141,
+    "end_min": 12161,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C101",
+    "stage": "首件",
+    "start_min": 12163,
+    "end_min": 12175,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C102",
+    "stage": "预准备",
+    "start_min": 12243,
+    "end_min": 12266,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C102",
+    "stage": "清洗",
+    "start_min": 12261,
+    "end_min": 12281,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C102",
+    "stage": "首件",
+    "start_min": 12283,
+    "end_min": 12295,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C103",
+    "stage": "预准备",
+    "start_min": 12363,
+    "end_min": 12386,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C103",
+    "stage": "清洗",
+    "start_min": 12381,
+    "end_min": 12401,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C103",
+    "stage": "首件",
+    "start_min": 12403,
+    "end_min": 12415,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C104",
+    "stage": "预准备",
+    "start_min": 12483,
+    "end_min": 12506,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C104",
+    "stage": "清洗",
+    "start_min": 12501,
+    "end_min": 12522,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C104",
+    "stage": "首件",
+    "start_min": 12524,
+    "end_min": 12536,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C104",
+    "stage": "重检",
+    "start_min": 12539,
+    "end_min": null,
+    "result": "进行中",
+    "worker": "E2"
+  },
+  {
+    "switch": "C105",
+    "stage": "预准备",
+    "start_min": 12603,
+    "end_min": 12626,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C105",
+    "stage": "清洗",
+    "start_min": 12621,
+    "end_min": 12642,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C105",
+    "stage": "首件",
+    "start_min": 12644,
+    "end_min": 12656,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C106",
+    "stage": "预准备",
+    "start_min": 12723,
+    "end_min": 12746,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C106",
+    "stage": "清洗",
+    "start_min": 12741,
+    "end_min": 12761,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C106",
+    "stage": "首件",
+    "start_min": 12763,
+    "end_min": 12775,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C107",
+    "stage": "预准备",
+    "start_min": 12843,
+    "end_min": 12866,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C107",
+    "stage": "清洗",
+    "start_min": 12861,
+    "end_min": 12879,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C107",
+    "stage": "首件",
+    "start_min": 12881,
+    "end_min": 12893,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C108",
+    "stage": "预准备",
+    "start_min": 12963,
+    "end_min": 12986,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C108",
+    "stage": "清洗",
+    "start_min": 12981,
+    "end_min": 13002,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C108",
+    "stage": "首件",
+    "start_min": 13004,
+    "end_min": 13016,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C108",
+    "stage": "重检",
+    "start_min": 13019,
+    "end_min": 13020,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C109",
+    "stage": "预准备",
+    "start_min": 13083,
+    "end_min": 13106,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C109",
+    "stage": "清洗",
+    "start_min": 13101,
+    "end_min": 13118,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C109",
+    "stage": "首件",
+    "start_min": 13120,
+    "end_min": 13132,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C110",
+    "stage": "预准备",
+    "start_min": 13203,
+    "end_min": 13226,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C110",
+    "stage": "清洗",
+    "start_min": 13221,
+    "end_min": 13242,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C110",
+    "stage": "首件",
+    "start_min": 13244,
+    "end_min": 13256,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C110",
+    "stage": "设备等待",
+    "start_min": 13224,
+    "end_min": 13231,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C111",
+    "stage": "预准备",
+    "start_min": 13323,
+    "end_min": 13346,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C111",
+    "stage": "清洗",
+    "start_min": 13341,
+    "end_min": 13361,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C111",
+    "stage": "首件",
+    "start_min": 13363,
+    "end_min": 13375,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C112",
+    "stage": "预准备",
+    "start_min": 13443,
+    "end_min": 13466,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C112",
+    "stage": "清洗",
+    "start_min": 13461,
+    "end_min": 13480,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C112",
+    "stage": "首件",
+    "start_min": 13482,
+    "end_min": 13494,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C112",
+    "stage": "重检",
+    "start_min": 13497,
+    "end_min": 13497,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C113",
+    "stage": "预准备",
+    "start_min": 13563,
+    "end_min": 13586,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C113",
+    "stage": "清洗",
+    "start_min": 13581,
+    "end_min": 13602,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C113",
+    "stage": "首件",
+    "start_min": 13604,
+    "end_min": 13616,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C114",
+    "stage": "预准备",
+    "start_min": 13683,
+    "end_min": 13706,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C114",
+    "stage": "清洗",
+    "start_min": 13701,
+    "end_min": 13719,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C114",
+    "stage": "首件",
+    "start_min": 13721,
+    "end_min": 13733,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C115",
+    "stage": "预准备",
+    "start_min": 13803,
+    "end_min": 13826,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C115",
+    "stage": "清洗",
+    "start_min": 13821,
+    "end_min": 13839,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C115",
+    "stage": "首件",
+    "start_min": 13841,
+    "end_min": 13853,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C116",
+    "stage": "预准备",
+    "start_min": 13923,
+    "end_min": 13946,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C116",
+    "stage": "清洗",
+    "start_min": 13941,
+    "end_min": 13958,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C116",
+    "stage": "首件",
+    "start_min": 13960,
+    "end_min": 13972,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C116",
+    "stage": "重检",
+    "start_min": 13975,
+    "end_min": 13978,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C117",
+    "stage": "预准备",
+    "start_min": 14043,
+    "end_min": 14066,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C117",
+    "stage": "清洗",
+    "start_min": 14061,
+    "end_min": 14079,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C117",
+    "stage": "首件",
+    "start_min": 14081,
+    "end_min": 14093,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C118",
+    "stage": "预准备",
+    "start_min": 14163,
+    "end_min": 14186,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C118",
+    "stage": "清洗",
+    "start_min": 14181,
+    "end_min": 14200,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C118",
+    "stage": "首件",
+    "start_min": 14202,
+    "end_min": 14214,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C119",
+    "stage": "预准备",
+    "start_min": 14283,
+    "end_min": 14306,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C119",
+    "stage": "清洗",
+    "start_min": 14301,
+    "end_min": 14321,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C119",
+    "stage": "首件",
+    "start_min": 14323,
+    "end_min": 14335,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C120",
+    "stage": "预准备",
+    "start_min": 14403,
+    "end_min": 14426,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C120",
+    "stage": "清洗",
+    "start_min": 14421,
+    "end_min": 14439,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C120",
+    "stage": "首件",
+    "start_min": 14441,
+    "end_min": 14453,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C120",
+    "stage": "重检",
+    "start_min": 14456,
+    "end_min": 14456,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C121",
+    "stage": "预准备",
+    "start_min": 14523,
+    "end_min": 14546,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C121",
+    "stage": "清洗",
+    "start_min": 14541,
+    "end_min": 14559,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C121",
+    "stage": "首件",
+    "start_min": 14561,
+    "end_min": 14573,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C121",
+    "stage": "设备等待",
+    "start_min": 14544,
+    "end_min": 14551,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C122",
+    "stage": "预准备",
+    "start_min": 14643,
+    "end_min": 14666,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C122",
+    "stage": "清洗",
+    "start_min": 14661,
+    "end_min": 14680,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C122",
+    "stage": "首件",
+    "start_min": 14682,
+    "end_min": 14694,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C123",
+    "stage": "预准备",
+    "start_min": 14763,
+    "end_min": 14786,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C123",
+    "stage": "清洗",
+    "start_min": 14781,
+    "end_min": 14799,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C123",
+    "stage": "首件",
+    "start_min": 14801,
+    "end_min": 14813,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C124",
+    "stage": "预准备",
+    "start_min": 14883,
+    "end_min": 14906,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C124",
+    "stage": "清洗",
+    "start_min": 14901,
+    "end_min": 14919,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C124",
+    "stage": "首件",
+    "start_min": 14921,
+    "end_min": 14933,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C124",
+    "stage": "重检",
+    "start_min": 14936,
+    "end_min": 14946,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C125",
+    "stage": "预准备",
+    "start_min": 15003,
+    "end_min": 15026,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C125",
+    "stage": "清洗",
+    "start_min": 15021,
+    "end_min": 15039,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C125",
+    "stage": "首件",
+    "start_min": 15041,
+    "end_min": 15053,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C126",
+    "stage": "预准备",
+    "start_min": 15123,
+    "end_min": 15146,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C126",
+    "stage": "清洗",
+    "start_min": 15141,
+    "end_min": 15161,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C126",
+    "stage": "首件",
+    "start_min": 15163,
+    "end_min": 15175,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C127",
+    "stage": "预准备",
+    "start_min": 15243,
+    "end_min": 15266,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C127",
+    "stage": "清洗",
+    "start_min": 15261,
+    "end_min": 15282,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C127",
+    "stage": "首件",
+    "start_min": 15284,
+    "end_min": 15296,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C128",
+    "stage": "预准备",
+    "start_min": 15363,
+    "end_min": 15386,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C128",
+    "stage": "清洗",
+    "start_min": 15381,
+    "end_min": 15399,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C128",
+    "stage": "首件",
+    "start_min": 15401,
+    "end_min": 15413,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C128",
+    "stage": "重检",
+    "start_min": 15416,
+    "end_min": 15420,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C129",
+    "stage": "预准备",
+    "start_min": 15483,
+    "end_min": 15506,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C129",
+    "stage": "清洗",
+    "start_min": 15501,
+    "end_min": 15520,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C129",
+    "stage": "首件",
+    "start_min": 15522,
+    "end_min": 15534,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C130",
+    "stage": "预准备",
+    "start_min": 15603,
+    "end_min": 15626,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C130",
+    "stage": "清洗",
+    "start_min": 15621,
+    "end_min": 15641,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C130",
+    "stage": "首件",
+    "start_min": 15643,
+    "end_min": 15655,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C131",
+    "stage": "预准备",
+    "start_min": 15723,
+    "end_min": 15746,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C131",
+    "stage": "清洗",
+    "start_min": 15741,
+    "end_min": 15758,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C131",
+    "stage": "首件",
+    "start_min": 15760,
+    "end_min": 15772,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C132",
+    "stage": "预准备",
+    "start_min": 15843,
+    "end_min": 15866,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C132",
+    "stage": "清洗",
+    "start_min": 15861,
+    "end_min": 15882,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C132",
+    "stage": "首件",
+    "start_min": 15884,
+    "end_min": 15896,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C132",
+    "stage": "重检",
+    "start_min": 15899,
+    "end_min": 15907,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C132",
+    "stage": "设备等待",
+    "start_min": 15864,
+    "end_min": 15871,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C133",
+    "stage": "预准备",
+    "start_min": 15963,
+    "end_min": 15986,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C133",
+    "stage": "清洗",
+    "start_min": 15981,
+    "end_min": 15998,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C133",
+    "stage": "首件",
+    "start_min": 16000,
+    "end_min": 16012,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C134",
+    "stage": "预准备",
+    "start_min": 16083,
+    "end_min": 16106,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C134",
+    "stage": "清洗",
+    "start_min": 16101,
+    "end_min": 16121,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C134",
+    "stage": "首件",
+    "start_min": 16123,
+    "end_min": 16135,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C135",
+    "stage": "预准备",
+    "start_min": 16203,
+    "end_min": 16226,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C135",
+    "stage": "清洗",
+    "start_min": 16221,
+    "end_min": 16241,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C135",
+    "stage": "首件",
+    "start_min": 16243,
+    "end_min": 16255,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C136",
+    "stage": "预准备",
+    "start_min": 16323,
+    "end_min": 16346,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C136",
+    "stage": "清洗",
+    "start_min": 16341,
+    "end_min": 16362,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C136",
+    "stage": "首件",
+    "start_min": 16364,
+    "end_min": 16376,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C136",
+    "stage": "重检",
+    "start_min": 16379,
+    "end_min": 16379,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C137",
+    "stage": "预准备",
+    "start_min": 16443,
+    "end_min": 16466,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C137",
+    "stage": "清洗",
+    "start_min": 16461,
+    "end_min": 16481,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C137",
+    "stage": "首件",
+    "start_min": 16483,
+    "end_min": 16495,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C138",
+    "stage": "预准备",
+    "start_min": 16563,
+    "end_min": 16586,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C138",
+    "stage": "清洗",
+    "start_min": 16581,
+    "end_min": 16598,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C138",
+    "stage": "首件",
+    "start_min": 16600,
+    "end_min": 16612,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C139",
+    "stage": "预准备",
+    "start_min": 16683,
+    "end_min": 16706,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C139",
+    "stage": "清洗",
+    "start_min": 16701,
+    "end_min": 16719,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C139",
+    "stage": "首件",
+    "start_min": 16721,
+    "end_min": 16733,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C140",
+    "stage": "预准备",
+    "start_min": 16803,
+    "end_min": 16826,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C140",
+    "stage": "清洗",
+    "start_min": 16821,
+    "end_min": 16842,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C140",
+    "stage": "首件",
+    "start_min": 16844,
+    "end_min": 16856,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C140",
+    "stage": "重检",
+    "start_min": 16859,
+    "end_min": 16866,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C141",
+    "stage": "预准备",
+    "start_min": 16923,
+    "end_min": 16946,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C141",
+    "stage": "清洗",
+    "start_min": 16941,
+    "end_min": 16958,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C141",
+    "stage": "首件",
+    "start_min": 16960,
+    "end_min": 16972,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C142",
+    "stage": "预准备",
+    "start_min": 17043,
+    "end_min": 17066,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C142",
+    "stage": "清洗",
+    "start_min": 17061,
+    "end_min": 17082,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C142",
+    "stage": "首件",
+    "start_min": 17084,
+    "end_min": 17096,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C143",
+    "stage": "预准备",
+    "start_min": 17163,
+    "end_min": 17186,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C143",
+    "stage": "清洗",
+    "start_min": 17181,
+    "end_min": 17201,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C143",
+    "stage": "首件",
+    "start_min": 17203,
+    "end_min": 17215,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C143",
+    "stage": "设备等待",
+    "start_min": 17184,
+    "end_min": 17191,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C144",
+    "stage": "预准备",
+    "start_min": 17283,
+    "end_min": 17306,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C144",
+    "stage": "清洗",
+    "start_min": 17301,
+    "end_min": 17320,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C144",
+    "stage": "首件",
+    "start_min": 17322,
+    "end_min": 17334,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C144",
+    "stage": "重检",
+    "start_min": 17337,
+    "end_min": 17345,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C145",
+    "stage": "预准备",
+    "start_min": 17403,
+    "end_min": 17426,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C145",
+    "stage": "清洗",
+    "start_min": 17421,
+    "end_min": 17439,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C145",
+    "stage": "首件",
+    "start_min": 17441,
+    "end_min": 17453,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C146",
+    "stage": "预准备",
+    "start_min": 17523,
+    "end_min": 17546,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C146",
+    "stage": "清洗",
+    "start_min": 17541,
+    "end_min": 17558,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C146",
+    "stage": "首件",
+    "start_min": 17560,
+    "end_min": 17572,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C147",
+    "stage": "预准备",
+    "start_min": 17643,
+    "end_min": 17666,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C147",
+    "stage": "清洗",
+    "start_min": 17661,
+    "end_min": 17678,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C147",
+    "stage": "首件",
+    "start_min": 17680,
+    "end_min": 17692,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C148",
+    "stage": "预准备",
+    "start_min": 17763,
+    "end_min": 17786,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C148",
+    "stage": "清洗",
+    "start_min": 17781,
+    "end_min": 17802,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C148",
+    "stage": "首件",
+    "start_min": 17804,
+    "end_min": 17816,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C148",
+    "stage": "重检",
+    "start_min": 17819,
+    "end_min": 17826,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C149",
+    "stage": "预准备",
+    "start_min": 17883,
+    "end_min": 17906,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C149",
+    "stage": "清洗",
+    "start_min": 17901,
+    "end_min": 17918,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C149",
+    "stage": "首件",
+    "start_min": 17920,
+    "end_min": 17932,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C150",
+    "stage": "预准备",
+    "start_min": 18003,
+    "end_min": 18026,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C150",
+    "stage": "清洗",
+    "start_min": 18021,
+    "end_min": 18040,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C150",
+    "stage": "首件",
+    "start_min": 18042,
+    "end_min": 18054,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C151",
+    "stage": "预准备",
+    "start_min": 18123,
+    "end_min": 18146,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C151",
+    "stage": "清洗",
+    "start_min": 18141,
+    "end_min": 18161,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C151",
+    "stage": "首件",
+    "start_min": 18163,
+    "end_min": 18175,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C152",
+    "stage": "预准备",
+    "start_min": 18243,
+    "end_min": 18266,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C152",
+    "stage": "清洗",
+    "start_min": 18261,
+    "end_min": 18280,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C152",
+    "stage": "首件",
+    "start_min": 18282,
+    "end_min": 18294,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C152",
+    "stage": "重检",
+    "start_min": 18297,
+    "end_min": 18301,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C153",
+    "stage": "预准备",
+    "start_min": 18363,
+    "end_min": 18386,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C153",
+    "stage": "清洗",
+    "start_min": 18381,
+    "end_min": 18399,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C153",
+    "stage": "首件",
+    "start_min": 18401,
+    "end_min": 18413,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C154",
+    "stage": "预准备",
+    "start_min": 18483,
+    "end_min": 18506,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C154",
+    "stage": "清洗",
+    "start_min": 18501,
+    "end_min": 18520,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C154",
+    "stage": "首件",
+    "start_min": 18522,
+    "end_min": 18534,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C154",
+    "stage": "设备等待",
+    "start_min": 18504,
+    "end_min": 18511,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C155",
+    "stage": "预准备",
+    "start_min": 18603,
+    "end_min": 18626,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C155",
+    "stage": "清洗",
+    "start_min": 18621,
+    "end_min": 18640,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C155",
+    "stage": "首件",
+    "start_min": 18642,
+    "end_min": 18654,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C156",
+    "stage": "预准备",
+    "start_min": 18723,
+    "end_min": 18746,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C156",
+    "stage": "清洗",
+    "start_min": 18741,
+    "end_min": 18762,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C156",
+    "stage": "首件",
+    "start_min": 18764,
+    "end_min": 18776,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C156",
+    "stage": "重检",
+    "start_min": 18779,
+    "end_min": null,
+    "result": "进行中",
+    "worker": "E3"
+  },
+  {
+    "switch": "C157",
+    "stage": "预准备",
+    "start_min": 18843,
+    "end_min": 18866,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C157",
+    "stage": "清洗",
+    "start_min": 18861,
+    "end_min": 18880,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C157",
+    "stage": "首件",
+    "start_min": 18882,
+    "end_min": 18894,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C158",
+    "stage": "预准备",
+    "start_min": 18963,
+    "end_min": 18986,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C158",
+    "stage": "清洗",
+    "start_min": 18981,
+    "end_min": 19002,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C158",
+    "stage": "首件",
+    "start_min": 19004,
+    "end_min": 19016,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C159",
+    "stage": "预准备",
+    "start_min": 19083,
+    "end_min": 19106,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C159",
+    "stage": "清洗",
+    "start_min": 19101,
+    "end_min": 19122,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C159",
+    "stage": "首件",
+    "start_min": 19124,
+    "end_min": 19136,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C160",
+    "stage": "预准备",
+    "start_min": 19203,
+    "end_min": 19226,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C160",
+    "stage": "清洗",
+    "start_min": 19221,
+    "end_min": 19239,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C160",
+    "stage": "首件",
+    "start_min": 19241,
+    "end_min": 19253,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "C160",
+    "stage": "重检",
+    "start_min": 19256,
+    "end_min": 19262,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C161",
+    "stage": "预准备",
+    "start_min": 19323,
+    "end_min": 19346,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C161",
+    "stage": "清洗",
+    "start_min": 19341,
+    "end_min": 19360,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C161",
+    "stage": "首件",
+    "start_min": 19362,
+    "end_min": 19374,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C162",
+    "stage": "预准备",
+    "start_min": 19443,
+    "end_min": 19466,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C162",
+    "stage": "清洗",
+    "start_min": 19461,
+    "end_min": 19479,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C162",
+    "stage": "首件",
+    "start_min": 19481,
+    "end_min": 19493,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C163",
+    "stage": "预准备",
+    "start_min": 19563,
+    "end_min": 19586,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C163",
+    "stage": "清洗",
+    "start_min": 19581,
+    "end_min": 19601,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C163",
+    "stage": "首件",
+    "start_min": 19603,
+    "end_min": 19615,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C164",
+    "stage": "预准备",
+    "start_min": 19683,
+    "end_min": 19706,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C164",
+    "stage": "清洗",
+    "start_min": 19701,
+    "end_min": 19722,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C164",
+    "stage": "首件",
+    "start_min": 19724,
+    "end_min": 19736,
+    "result": "失败",
+    "worker": "E2"
+  },
+  {
+    "switch": "C164",
+    "stage": "重检",
+    "start_min": 19739,
+    "end_min": 19742,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C165",
+    "stage": "预准备",
+    "start_min": 19803,
+    "end_min": 19826,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C165",
+    "stage": "清洗",
+    "start_min": 19821,
+    "end_min": 19839,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C165",
+    "stage": "首件",
+    "start_min": 19841,
+    "end_min": 19853,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C165",
+    "stage": "设备等待",
+    "start_min": 19824,
+    "end_min": 19831,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C166",
+    "stage": "预准备",
+    "start_min": 19923,
+    "end_min": 19946,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C166",
+    "stage": "清洗",
+    "start_min": 19941,
+    "end_min": 19960,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C166",
+    "stage": "首件",
+    "start_min": 19962,
+    "end_min": 19974,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C167",
+    "stage": "预准备",
+    "start_min": 20043,
+    "end_min": 20066,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C167",
+    "stage": "清洗",
+    "start_min": 20061,
+    "end_min": 20081,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C167",
+    "stage": "首件",
+    "start_min": 20083,
+    "end_min": 20095,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C168",
+    "stage": "预准备",
+    "start_min": 20163,
+    "end_min": 20186,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C168",
+    "stage": "清洗",
+    "start_min": 20181,
+    "end_min": 20201,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C168",
+    "stage": "首件",
+    "start_min": 20203,
+    "end_min": 20215,
+    "result": "失败",
+    "worker": "E4"
+  },
+  {
+    "switch": "C168",
+    "stage": "重检",
+    "start_min": 20218,
+    "end_min": 20221,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C169",
+    "stage": "预准备",
+    "start_min": 20283,
+    "end_min": 20306,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C169",
+    "stage": "清洗",
+    "start_min": 20301,
+    "end_min": 20318,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C169",
+    "stage": "首件",
+    "start_min": 20320,
+    "end_min": 20332,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C170",
+    "stage": "预准备",
+    "start_min": 20403,
+    "end_min": 20426,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C170",
+    "stage": "清洗",
+    "start_min": 20421,
+    "end_min": 20442,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C170",
+    "stage": "首件",
+    "start_min": 20444,
+    "end_min": 20456,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C171",
+    "stage": "预准备",
+    "start_min": 20523,
+    "end_min": 20546,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "C171",
+    "stage": "清洗",
+    "start_min": 20541,
+    "end_min": 20558,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "C171",
+    "stage": "首件",
+    "start_min": 20560,
+    "end_min": 20572,
+    "result": "通过",
+    "worker": "E0"
+  },
+  {
+    "switch": "C172",
+    "stage": "预准备",
+    "start_min": 20643,
+    "end_min": 20666,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C172",
+    "stage": "清洗",
+    "start_min": 20661,
+    "end_min": 20680,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C172",
+    "stage": "首件",
+    "start_min": 20682,
+    "end_min": 20694,
+    "result": "失败",
+    "worker": "E1"
+  },
+  {
+    "switch": "C172",
+    "stage": "重检",
+    "start_min": 20697,
+    "end_min": 20707,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C173",
+    "stage": "预准备",
+    "start_min": 20763,
+    "end_min": 20786,
+    "result": "完成",
+    "worker": "E1"
+  },
+  {
+    "switch": "C173",
+    "stage": "清洗",
+    "start_min": 20781,
+    "end_min": 20801,
+    "result": "签字",
+    "worker": "E1"
+  },
+  {
+    "switch": "C173",
+    "stage": "首件",
+    "start_min": 20803,
+    "end_min": 20815,
+    "result": "通过",
+    "worker": "E1"
+  },
+  {
+    "switch": "C174",
+    "stage": "预准备",
+    "start_min": 20883,
+    "end_min": 20906,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C174",
+    "stage": "清洗",
+    "start_min": 20901,
+    "end_min": 20921,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C174",
+    "stage": "首件",
+    "start_min": 20923,
+    "end_min": 20935,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C175",
+    "stage": "预准备",
+    "start_min": 21003,
+    "end_min": 21026,
+    "result": "完成",
+    "worker": "E2"
+  },
+  {
+    "switch": "C175",
+    "stage": "清洗",
+    "start_min": 21021,
+    "end_min": 21038,
+    "result": "签字",
+    "worker": "E2"
+  },
+  {
+    "switch": "C175",
+    "stage": "首件",
+    "start_min": 21040,
+    "end_min": 21052,
+    "result": "通过",
+    "worker": "E2"
+  },
+  {
+    "switch": "C176",
+    "stage": "预准备",
+    "start_min": 21123,
+    "end_min": 21146,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C176",
+    "stage": "清洗",
+    "start_min": 21141,
+    "end_min": 21161,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C176",
+    "stage": "首件",
+    "start_min": 21163,
+    "end_min": 21175,
+    "result": "失败",
+    "worker": "E3"
+  },
+  {
+    "switch": "C176",
+    "stage": "重检",
+    "start_min": 21178,
+    "end_min": 21185,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C176",
+    "stage": "设备等待",
+    "start_min": 21144,
+    "end_min": 21151,
+    "result": "排故",
+    "worker": null
+  },
+  {
+    "switch": "C177",
+    "stage": "预准备",
+    "start_min": 21243,
+    "end_min": 21266,
+    "result": "完成",
+    "worker": "E3"
+  },
+  {
+    "switch": "C177",
+    "stage": "清洗",
+    "start_min": 21261,
+    "end_min": 21279,
+    "result": "签字",
+    "worker": "E3"
+  },
+  {
+    "switch": "C177",
+    "stage": "首件",
+    "start_min": 21281,
+    "end_min": 21293,
+    "result": "通过",
+    "worker": "E3"
+  },
+  {
+    "switch": "C178",
+    "stage": "预准备",
+    "start_min": 21363,
+    "end_min": 21386,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C178",
+    "stage": "清洗",
+    "start_min": 21381,
+    "end_min": 21398,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C178",
+    "stage": "首件",
+    "start_min": 21400,
+    "end_min": 21412,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "C179",
+    "stage": "预准备",
+    "start_min": 21483,
+    "end_min": 21506,
+    "result": "完成",
+    "worker": "E4"
+  },
+  {
+    "switch": "C179",
+    "stage": "清洗",
+    "start_min": 21501,
+    "end_min": 21518,
+    "result": "签字",
+    "worker": "E4"
+  },
+  {
+    "switch": "C179",
+    "stage": "首件",
+    "start_min": 21520,
+    "end_min": 21532,
+    "result": "通过",
+    "worker": "E4"
+  },
+  {
+    "switch": "LIVE",
+    "stage": "预准备",
+    "start_min": 21567,
+    "end_min": 21600,
+    "result": "完成",
+    "worker": "E0"
+  },
+  {
+    "switch": "LIVE",
+    "stage": "清洗",
+    "start_min": 21605,
+    "end_min": 21619,
+    "result": "签字",
+    "worker": "E0"
+  },
+  {
+    "switch": "LIVE",
+    "stage": "首件",
+    "start_min": 21620,
+    "end_min": 21630,
+    "result": "失败",
+    "worker": "E0"
+  },
+  {
+    "switch": "LIVE",
+    "stage": "重检",
+    "start_min": 21642,
+    "end_min": null,
+    "result": "进行中",
+    "worker": "E1"
+  }
+]

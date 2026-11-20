@@ -1,0 +1,29 @@
+[
+  {
+    "id": "STD1",
+    "previous": "A",
+    "next": "B",
+    "spec": "V1",
+    "effective_min": 20000,
+    "action": "批准",
+    "factory": "一厂"
+  },
+  {
+    "id": "STD2",
+    "previous": "A",
+    "next": "B",
+    "spec": "V2",
+    "effective_min": 21635,
+    "action": "批准",
+    "factory": "一厂"
+  },
+  {
+    "id": "STD3",
+    "previous": "A",
+    "next": "C",
+    "spec": "V2",
+    "effective_min": 21635,
+    "action": "退回补采",
+    "factory": "一厂"
+  }
+]

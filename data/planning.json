@@ -1,0 +1,16 @@
+{
+  "review_min": [
+    15000,
+    19000,
+    21640,
+    21670
+  ],
+  "shift_boundaries_min": [
+    21636,
+    21720,
+    21960,
+    22200
+  ],
+  "reopen_margin_min": 10,
+  "missing_stage_time_limit_min": 180
+}

@@ -1,0 +1,92 @@
+{
+  "switchovers": {
+    "records": 181,
+    "fields": [
+      "id",
+      "factory",
+      "line",
+      "previous",
+      "next",
+      "spec",
+      "stop_min",
+      "restart_min",
+      "signed_min"
+    ]
+  },
+  "stages": {
+    "records": 606,
+    "fields": [
+      "switch",
+      "stage",
+      "start_min",
+      "end_min",
+      "result",
+      "worker"
+    ]
+  },
+  "tool_logs": {
+    "records": 205,
+    "fields": [
+      "tool",
+      "worker",
+      "line",
+      "start_min",
+      "end_min",
+      "switch"
+    ]
+  },
+  "products": {
+    "records": 5,
+    "fields": [
+      "family",
+      "chemistry",
+      "cleanliness",
+      "die_direction"
+    ]
+  },
+  "factory_caps": {
+    "records": 3,
+    "fields": [
+      "factory",
+      "line",
+      "interchangeable_factory",
+      "tools",
+      "qualified_workers",
+      "rate_per_hour"
+    ]
+  },
+  "orders": {
+    "records": 4,
+    "fields": [
+      "id",
+      "product",
+      "qty",
+      "release_min",
+      "promise_min",
+      "locked",
+      "original_line",
+      "original_start_min"
+    ]
+  },
+  "standards_ledger": {
+    "records": 3,
+    "fields": [
+      "id",
+      "previous",
+      "next",
+      "spec",
+      "effective_min",
+      "action",
+      "factory"
+    ]
+  },
+  "planning": {
+    "records": 1,
+    "fields": [
+      "review_min",
+      "shift_boundaries_min",
+      "reopen_margin_min",
+      "missing_stage_time_limit_min"
+    ]
+  }
+}

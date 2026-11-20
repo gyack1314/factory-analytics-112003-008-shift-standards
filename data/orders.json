@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PLAN1",
+    "product": "B",
+    "qty": 35,
+    "release_min": 21620,
+    "promise_min": 21710,
+    "locked": true,
+    "original_line": "L1",
+    "original_start_min": 21646
+  },
+  {
+    "id": "PLAN2",
+    "product": "A",
+    "qty": 64,
+    "release_min": 21605,
+    "promise_min": 21790,
+    "locked": false,
+    "original_line": "L0",
+    "original_start_min": 21675
+  },
+  {
+    "id": "PLAN3",
+    "product": "C",
+    "qty": 56,
+    "release_min": 21610,
+    "promise_min": 21760,
+    "locked": true,
+    "original_line": "L1",
+    "original_start_min": 21730
+  },
+  {
+    "id": "PLAN4",
+    "product": "X",
+    "qty": 30,
+    "release_min": 21670,
+    "promise_min": 21810,
+    "locked": false,
+    "original_line": "L0",
+    "original_start_min": 21750
+  }
+]

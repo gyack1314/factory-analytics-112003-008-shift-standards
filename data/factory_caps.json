@@ -1,0 +1,42 @@
+[
+  {
+    "factory": "一厂",
+    "line": "L0",
+    "interchangeable_factory": "二厂",
+    "tools": [
+      "M0",
+      "M1"
+    ],
+    "qualified_workers": [
+      "E0",
+      "E1"
+    ],
+    "rate_per_hour": 70
+  },
+  {
+    "factory": "一厂",
+    "line": "L1",
+    "interchangeable_factory": "二厂",
+    "tools": [
+      "M0"
+    ],
+    "qualified_workers": [
+      "E1",
+      "E2"
+    ],
+    "rate_per_hour": 55
+  },
+  {
+    "factory": "三厂",
+    "line": "L2",
+    "interchangeable_factory": null,
+    "tools": [
+      "M1"
+    ],
+    "qualified_workers": [
+      "E3",
+      "E4"
+    ],
+    "rate_per_hour": 60
+  }
+]
