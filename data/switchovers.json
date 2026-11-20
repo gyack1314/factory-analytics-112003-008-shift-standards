@@ -62,8 +62,8 @@
     "next": "X",
     "spec": "V1",
     "stop_min": 620,
-    "restart_min": 655,
-    "signed_min": 660
+    "restart_min": 657,
+    "signed_min": 662
   },
   {
     "id": "C6",
@@ -711,8 +711,8 @@
     "next": "Y",
     "spec": "V1",
     "stop_min": 7700,
-    "restart_min": 7737,
-    "signed_min": 7742
+    "restart_min": 7738,
+    "signed_min": 7743
   },
   {
     "id": "C65",
@@ -799,8 +799,8 @@
     "next": "B",
     "spec": "V1",
     "stop_min": 8660,
-    "restart_min": 8697,
-    "signed_min": 8702
+    "restart_min": 8698,
+    "signed_min": 8703
   },
   {
     "id": "C73",
@@ -843,8 +843,8 @@
     "next": "Y",
     "spec": "V1",
     "stop_min": 9140,
-    "restart_min": 9180,
-    "signed_min": 9185
+    "restart_min": 9182,
+    "signed_min": 9187
   },
   {
     "id": "C77",
@@ -887,8 +887,8 @@
     "next": "C",
     "spec": "V1",
     "stop_min": 9620,
-    "restart_min": 9657,
-    "signed_min": 9662
+    "restart_min": 9658,
+    "signed_min": 9663
   },
   {
     "id": "C81",
@@ -975,8 +975,8 @@
     "next": "Y",
     "spec": "V1",
     "stop_min": 10580,
-    "restart_min": 10619,
-    "signed_min": 10624
+    "restart_min": 10620,
+    "signed_min": 10625
   },
   {
     "id": "C89",
@@ -997,8 +997,8 @@
     "next": "B",
     "spec": "V2",
     "stop_min": 10820,
-    "restart_min": 10856,
-    "signed_min": 10861
+    "restart_min": 10857,
+    "signed_min": 10862
   },
   {
     "id": "C91",
@@ -1019,8 +1019,8 @@
     "next": "C",
     "spec": "V2",
     "stop_min": 11060,
-    "restart_min": 11095,
-    "signed_min": 11100
+    "restart_min": 11100,
+    "signed_min": 11105
   },
   {
     "id": "C93",
@@ -1107,8 +1107,8 @@
     "next": "Y",
     "spec": "V2",
     "stop_min": 12020,
-    "restart_min": 12055,
-    "signed_min": 12060
+    "restart_min": 12059,
+    "signed_min": 12064
   },
   {
     "id": "C101",
@@ -1195,8 +1195,8 @@
     "next": "B",
     "spec": "V2",
     "stop_min": 12980,
-    "restart_min": 13020,
-    "signed_min": 13025
+    "restart_min": 13022,
+    "signed_min": 13027
   },
   {
     "id": "C109",
@@ -1239,8 +1239,8 @@
     "next": "Y",
     "spec": "V2",
     "stop_min": 13460,
-    "restart_min": 13497,
-    "signed_min": 13502
+    "restart_min": 13500,
+    "signed_min": 13505
   },
   {
     "id": "C113",
@@ -1327,8 +1327,8 @@
     "next": "B",
     "spec": "V2",
     "stop_min": 14420,
-    "restart_min": 14456,
-    "signed_min": 14461
+    "restart_min": 14459,
+    "signed_min": 14464
   },
   {
     "id": "C121",
@@ -1404,8 +1404,8 @@
     "next": "A",
     "spec": "V2",
     "stop_min": 15260,
-    "restart_min": 15296,
-    "signed_min": 15301
+    "restart_min": 15297,
+    "signed_min": 15302
   },
   {
     "id": "C128",
@@ -1503,8 +1503,8 @@
     "next": "Y",
     "spec": "V2",
     "stop_min": 16340,
-    "restart_min": 16379,
-    "signed_min": 16384
+    "restart_min": 16382,
+    "signed_min": 16387
   },
   {
     "id": "C137",

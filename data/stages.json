@@ -1739,7 +1739,7 @@
     "switch": "C64",
     "stage": "重检",
     "start_min": 7735,
-    "end_min": 7737,
+    "end_min": 7738,
     "result": "通过",
     "worker": "E2"
   },
@@ -1955,7 +1955,7 @@
     "switch": "C72",
     "stage": "重检",
     "start_min": 8695,
-    "end_min": 8697,
+    "end_min": 8698,
     "result": "通过",
     "worker": "E1"
   },
@@ -2059,7 +2059,7 @@
     "switch": "C76",
     "stage": "重检",
     "start_min": 9179,
-    "end_min": 9180,
+    "end_min": 9182,
     "result": "通过",
     "worker": "E3"
   },
@@ -2171,7 +2171,7 @@
     "switch": "C80",
     "stage": "重检",
     "start_min": 9655,
-    "end_min": 9657,
+    "end_min": 9658,
     "result": "通过",
     "worker": "E0"
   },
@@ -2379,7 +2379,7 @@
     "switch": "C88",
     "stage": "重检",
     "start_min": 10617,
-    "end_min": 10619,
+    "end_min": 10620,
     "result": "通过",
     "worker": "E4"
   },
@@ -2491,7 +2491,7 @@
     "switch": "C92",
     "stage": "重检",
     "start_min": 11097,
-    "end_min": 11095,
+    "end_min": 11100,
     "result": "通过",
     "worker": "E1"
   },
@@ -2707,7 +2707,7 @@
     "switch": "C100",
     "stage": "重检",
     "start_min": 12056,
-    "end_min": 12055,
+    "end_min": 12059,
     "result": "通过",
     "worker": "E0"
   },
@@ -2915,7 +2915,7 @@
     "switch": "C108",
     "stage": "重检",
     "start_min": 13019,
-    "end_min": 13020,
+    "end_min": 13022,
     "result": "通过",
     "worker": "E4"
   },
@@ -3027,7 +3027,7 @@
     "switch": "C112",
     "stage": "重检",
     "start_min": 13497,
-    "end_min": 13497,
+    "end_min": 13500,
     "result": "通过",
     "worker": "E1"
   },
@@ -3235,7 +3235,7 @@
     "switch": "C120",
     "stage": "重检",
     "start_min": 14456,
-    "end_min": 14456,
+    "end_min": 14459,
     "result": "通过",
     "worker": "E0"
   },
@@ -3667,7 +3667,7 @@
     "switch": "C136",
     "stage": "重检",
     "start_min": 16379,
-    "end_min": 16379,
+    "end_min": 16382,
     "result": "通过",
     "worker": "E3"
   },
